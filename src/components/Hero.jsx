@@ -17,14 +17,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-20">
         <div className="max-w-2xl text-white">
           <h1
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+            className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
             data-aos="fade-up"
             data-aos-delay="100"
           >
             Experience the Power of <span className="text-gold">Nigerian Heritage</span>
           </h1>
           <p
-            className="text-lg md:text-xl opacity-90 mb-8"
+            className="text-base md:text-lg opacity-90 mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >
