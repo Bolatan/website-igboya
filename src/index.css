@@ -198,9 +198,9 @@ header {
 }
 
 .product-slider-container .slick-slide > div {
-  margin: 0 10px;
+  margin: 0;
 }
 
 .product-slider-container .slick-list {
-  margin: 0 -10px;
+  margin: 0;
 }
