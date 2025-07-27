@@ -23,13 +23,6 @@ const Hero = () => {
           >
             Experience the Power of <span className="text-gold">Nigerian Heritage</span>
           </h1>
-          <p
-            className="text-base md:text-lg opacity-90 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            Igboya Bitters combines ancient herbal traditions with modern wellness science. Crafted from premium natural ingredients for health and vitality.
-          </p>
           <div
             className="flex flex-col sm:flex-row gap-4"
             data-aos="fade-up"
