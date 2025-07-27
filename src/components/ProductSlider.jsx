@@ -12,43 +12,26 @@ const ProductSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
   };
 
   const featuredProducts = products.filter(product => product.featured);
 
   return (
-    <div className="product-slider-container py-12 bg-gray-100">
+    <div className="product-slider-container">
       <Slider {...settings}>
         {featuredProducts.map(product => (
-          <div key={product.id} className="p-4">
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <Link to={`/products/${product.id}`}>
-                <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
-              </Link>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-                <p className="text-gray-700 mb-4">{product.shortDescription}</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-gold">₦{product.price.toLocaleString()}</span>
-                  <Link to={`/products/${product.id}`} className="btn btn-primary">
+          <div key={product.id}>
+            <div className="relative">
+              <img src={product.image} alt={product.name} className="w-full h-screen object-cover" />
+              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <div className="text-center text-white p-4">
+                  <h2 className="text-4xl font-bold mb-2">{product.name}</h2>
+                  <p className="text-lg mb-4">{product.shortDescription}</p>
+                  <Link to={`/products/${product.id}`} className="btn btn-gold">
                     View Details
                   </Link>
                 </div>
