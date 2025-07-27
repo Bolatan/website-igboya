@@ -11,6 +11,9 @@ function AboutPage() {
           <p className="text-lg">
             Igboya Bitters represents the perfect marriage of time-honored herbal wisdom and modern craftsmanship. This premium alcoholic herbal drink is meticulously crafted from a carefully curated selection of natural herbs, each chosen for their unique therapeutic properties and centuries of traditional use.
           </p>
+          <p className="text-lg mt-4">
+            Igboya Bitters combines ancient herbal traditions with modern wellness science. Crafted from premium natural ingredients for health and vitality.
+          </p>
         </section>
 
         <section>
