@@ -36,29 +36,27 @@ const ProductSlider = () => {
 
   return (
     <div className="product-slider-container py-12 bg-gray-100">
-      <div className="container mx-auto px-4">
-        <Slider {...settings}>
-          {featuredProducts.map(product => (
-            <div key={product.id} className="p-4">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <Link to={`/products/${product.id}`}>
-                  <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
-                </Link>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-                  <p className="text-gray-700 mb-4">{product.shortDescription}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-gold">₦{product.price.toLocaleString()}</span>
-                    <Link to={`/products/${product.id}`} className="btn btn-primary">
-                      View Details
-                    </Link>
-                  </div>
+      <Slider {...settings}>
+        {featuredProducts.map(product => (
+          <div key={product.id} className="p-4">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <Link to={`/products/${product.id}`}>
+                <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
+              </Link>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
+                <p className="text-gray-700 mb-4">{product.shortDescription}</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-gold">₦{product.price.toLocaleString()}</span>
+                  <Link to={`/products/${product.id}`} className="btn btn-primary">
+                    View Details
+                  </Link>
                 </div>
               </div>
             </div>
-          ))}
-        </Slider>
-      </div>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };
