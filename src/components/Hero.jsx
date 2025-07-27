@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ProductSlider from './ProductSlider'
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section className="relative min-h-screen flex flex-col justify-center">
       <div 
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
         style={{ 
@@ -13,8 +14,8 @@ const Hero = () => {
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50"></div>
       
-      <div className="container mx-auto px-4 z-20">
-        <div className="max-w-2xl text-white">
+      <div className="container mx-auto px-4 z-20 pt-20">
+        <div className="max-w-2xl text-white text-center mx-auto">
           <h1 
             className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4" 
             data-aos="fade-up"
@@ -30,7 +31,7 @@ const Hero = () => {
             Igboya Bitters combines ancient herbal traditions with modern wellness science. Crafted from premium natural ingredients for health and vitality.
           </p>
           <div 
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 justify-center"
             data-aos="fade-up"
             data-aos-delay="300"
           >
@@ -44,16 +45,8 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-10 left-0 right-0 z-20 flex justify-center">
-        <div 
-          className="animate-bounce bg-white bg-opacity-20 p-2 w-10 h-10 ring-1 ring-white ring-opacity-20 rounded-full flex items-center justify-center"
-          data-aos="fade-up"
-          data-aos-delay="400"
-        >
-          <svg className="w-6 h-6 text-white" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-          </svg>
-        </div>
+      <div className="w-full z-20 mt-12">
+        <ProductSlider />
       </div>
     </section>
   )

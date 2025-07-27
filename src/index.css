@@ -185,3 +185,22 @@ p {
 header {
   transition: all 0.3s ease;
 }
+
+/* Custom slick slider styles */
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #d4af37; /* gold */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #d4af37; /* gold */
+  opacity: 1;
+}
+
+.product-slider-container .slick-slide > div {
+  margin: 0 10px;
+}
+
+.product-slider-container .slick-list {
+  margin: 0 -10px;
+}
