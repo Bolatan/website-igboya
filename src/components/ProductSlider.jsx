@@ -11,11 +11,11 @@ const ProductSlider = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
   };
 
   const featuredProducts = products.filter(product => product.featured);
@@ -26,7 +26,7 @@ const ProductSlider = () => {
         {featuredProducts.map(product => (
           <div key={product.id}>
             <div className="relative">
-              <img src={product.image} alt={product.name} className="w-full h-screen object-cover" />
+              <img src={product.image} alt={product.name} className="w-full h-[60vh] object-cover" />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 <div className="text-center text-white p-4">
                   <h2 className="text-4xl font-bold mb-2">{product.name}</h2>
