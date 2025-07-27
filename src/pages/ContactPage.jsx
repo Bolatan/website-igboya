@@ -59,8 +59,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-600">+234 123 456 7890</p>
-                    <p className="text-gray-600">Mon-Fri, 9am-5pm WAT</p>
+                    <p className="text-gray-600">08126670037, 09099319340</p>
                   </div>
                 </div>
                 
@@ -70,8 +69,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">info@igboyabitters.com</p>
-                    <p className="text-gray-600">support@igboyabitters.com</p>
+                    <p className="text-gray-600">eastwoodruss678@yahoo.com</p>
                   </div>
                 </div>
                 
@@ -80,9 +78,9 @@ const ContactPage = () => {
                     <FaMapMarkerAlt size={20} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-1">Office</h3>
-                    <p className="text-gray-600">123 Herbal Street</p>
-                    <p className="text-gray-600">Lagos, Nigeria</p>
+                    <h3 className="text-xl font-semibold mb-1">ADDRESS</h3>
+                    <p className="text-gray-600">EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD.</p>
+                    <p className="text-gray-600">48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</p>
                   </div>
                 </div>
               </div>

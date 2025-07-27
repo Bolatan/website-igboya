@@ -16,8 +16,8 @@ export default {
         'cream': '#FFFDD0',
       },
       fontFamily: {
-        'playfair': ['"Playfair Display"', 'serif'],
-        'raleway': ['Raleway', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'lexend': ['Lexend', 'sans-serif'],
       },
       backgroundImage: {
         'hero-pattern': "url('/src/assets/hero-bg.jpg')",

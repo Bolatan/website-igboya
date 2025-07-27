@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-20">
         <div className="max-w-2xl text-white">
           <h1
-            className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
+            className="text-xl md:text-2xl lg:text-3xl font-bold mb-4"
             data-aos="fade-up"
             data-aos-delay="100"
           >
