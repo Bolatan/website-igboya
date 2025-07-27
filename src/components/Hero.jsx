@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50"></div>
       
       <div className="container mx-auto px-4 z-20">
-        <div className="max-w-2xl text-white">
+        <div className="text-white" style={{ width: '25%' }}>
           <h1
             className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
             data-aos="fade-up"
