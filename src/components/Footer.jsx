@@ -56,15 +56,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaPhoneAlt className="mt-1 mr-3 text-gold" />
-                <span>+234 123 456 7890</span>
+                <span>08126670037, 09099319340</span>
               </li>
               <li className="flex items-start">
                 <FaEnvelope className="mt-1 mr-3 text-gold" />
-                <span>info@igboyabitters.com</span>
+                <span>eastwoodruss678@yahoo.com</span>
               </li>
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-gold" />
-                <span>123 Herbal Street, Lagos, Nigeria</span>
+                <span>EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD. <br /> 48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</span>
               </li>
             </ul>
           </div>
