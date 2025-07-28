@@ -58,7 +58,7 @@ const FeaturedProducts = () => {
           <Slider {...settings}>
             {featuredProducts.map(product => (
               <div key={product.id} className="px-2">
-                <ProductCard product={product} />
+                <ProductCard product={product} hidePrice={true} />
               </div>
             ))}
           </Slider>

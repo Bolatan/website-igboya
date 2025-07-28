@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaShoppingCart, FaStar } from 'react-icons/fa'
 import { useCart } from '../contexts/CartContext'
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, hidePrice }) => {
   const { addToCart } = useCart()
 
   const handleAddToCart = (e) => {
@@ -53,31 +53,33 @@ const ProductCard = ({ product }) => {
           
           <p className="text-gray-600 text-sm mb-3">{product.shortDescription}</p>
           
-          <div className="flex justify-between items-center">
-            <div className="flex items-center">
-              {product.discount > 0 ? (
-                <>
+          {!hidePrice && (
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                {product.discount > 0 ? (
+                  <>
+                    <span className="text-lg font-bold text-primary-green">
+                      ₦{(product.price * (1 - product.discount / 100)).toFixed(2)}
+                    </span>
+                    <span className="text-sm text-gray-500 line-through ml-2">
+                      ₦{product.price.toFixed(2)}
+                    </span>
+                  </>
+                ) : (
                   <span className="text-lg font-bold text-primary-green">
-                    ₦{(product.price * (1 - product.discount / 100)).toFixed(2)}
-                  </span>
-                  <span className="text-sm text-gray-500 line-through ml-2">
                     ₦{product.price.toFixed(2)}
                   </span>
-                </>
-              ) : (
-                <span className="text-lg font-bold text-primary-green">
-                  ₦{product.price.toFixed(2)}
-                </span>
-              )}
+                )}
+              </div>
+
+              <button
+                onClick={handleAddToCart}
+                className="p-2 bg-primary-green text-white rounded-full hover:bg-dark-green transition-colors"
+              >
+                <FaShoppingCart size={16} />
+              </button>
             </div>
-            
-            <button 
-              onClick={handleAddToCart}
-              className="p-2 bg-primary-green text-white rounded-full hover:bg-dark-green transition-colors"
-            >
-              <FaShoppingCart size={16} />
-            </button>
-          </div>
+          )}
         </div>
       </Link>
     </div>
