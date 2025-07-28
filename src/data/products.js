@@ -3,6 +3,7 @@ import productImg1 from '../assets/product-1.jpg'
 import productImg2 from '../assets/product-2.jpg'
 import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
+import igboyaImg from '../assets/igboya.jpeg'
 
 export const products = [
   {
@@ -249,6 +250,36 @@ export const products = [
       'Cultural information booklet',
       'Premium wellness experience',
       'Celebrates Nigerian heritage'
+    ]
+  },
+  {
+    id: 9,
+    name: 'Igboya Herbal Drink',
+    shortDescription: 'A refreshing herbal drink for any time of the day.',
+    fullDescription: 'Igboya Herbal Drink is a non-alcoholic beverage made from a special blend of herbs and spices. It is a refreshing and healthy alternative to sugary drinks. Perfect for any time of the day, this drink will rejuvenate you and leave you feeling refreshed.',
+    price: 1000,
+    discount: 0,
+    category: 'standard',
+    image: igboyaImg,
+    gallery: [igboyaImg, productImg2, productImg3],
+    featured: true,
+    isNew: true,
+    rating: 4.8,
+    reviews: 67,
+    stock: 40,
+    ingredients: [
+      'Hibiscus Flower',
+      'Lemon Grass',
+      'Ginger',
+      'Honey',
+      'Natural Flavors'
+    ],
+    benefits: [
+      'Refreshing and hydrating',
+      'Rich in antioxidants',
+      'Boosts energy naturally',
+      'Caffeine-free',
+      'Supports overall wellness'
     ]
   }
 ]
