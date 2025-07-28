@@ -1,4 +1,5 @@
 // Product Images
+
 import productImg1 from '../assets/bold gin.jpeg'
 import productImg2 from '../assets/splendor bitters.jpeg'
 import productImg3 from '../assets/splendor liquer.jpeg'
@@ -254,6 +255,7 @@ export const products = [
   },
   {
     id: 9,
+
     name: 'Tee KAN LE Herbal Mixture',
     shortDescription: 'Premium Non-Alcoholic Herbal Wellness Drink.',
     fullDescription: 'Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that\'s transforming lives across the nation. This meticulously crafted blend doesn\'t just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.',
