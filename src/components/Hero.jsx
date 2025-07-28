@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ProductSlider from './ProductSlider'
+import heroBg from '../assets/bold gin.jpeg'
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url(https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg?auto=compress&cs=tinysrgb&w=1920)`,
+          backgroundImage: `url(${heroBg})`,
           backgroundAttachment: 'fixed'
         }}
       ></div>
@@ -21,7 +22,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            Experience the Power of <span className="text-gold">Nigerian Heritage</span>
+            Discover Your New Favorite Drink
           </h1>
           <div
             className="flex flex-col sm:flex-row gap-4"
