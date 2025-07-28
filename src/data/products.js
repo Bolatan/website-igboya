@@ -250,5 +250,34 @@ export const products = [
       'Premium wellness experience',
       'Celebrates Nigerian heritage'
     ]
+  },
+  {
+    id: 9,
+    name: 'Tee KAN LE Herbal Mixture',
+    shortDescription: 'Premium Non-Alcoholic Herbal Wellness Drink.',
+    fullDescription: 'Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that\'s transforming lives across the nation. This meticulously crafted blend doesn\'t just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.',
+    price: 6000,
+    discount: 0,
+    category: 'premium',
+    image: productImg1,
+    gallery: [productImg1, productImg2, productImg3],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 20,
+    ingredients: [
+      'Traditional Herbs',
+      'Natural extracts'
+    ],
+    benefits: [
+      'Complete Body Detoxification',
+      'Enhanced Male Vitality',
+      'Immune System Fortification',
+      'Improves energy levels and reduces fatigue',
+      'Supports healthy metabolism and digestive function',
+      'Enhances mental clarity and focus',
+      'Balances hormones naturally'
+    ]
   }
 ]
