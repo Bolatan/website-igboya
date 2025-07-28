@@ -1,8 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-import ProductSlider from './ProductSlider'
-import heroBg from '../assets/bold gin.jpeg'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
+import { products } from '../data/products'
+import ProductCard from './ProductCard'
 
 const Hero = () => {
   return (
@@ -10,7 +15,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url(${heroBg})`,
+          backgroundImage: `url(https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg?auto=compress&cs=tinysrgb&w=1920)`,
           backgroundAttachment: 'fixed'
         }}
       ></div>
@@ -45,7 +50,6 @@ const Hero = () => {
                 Learn More
               </Link>
             </div>
-
           </div>
 
           <div className="w-full" data-aos="fade-left" data-aos-delay="400">
