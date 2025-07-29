@@ -4,6 +4,13 @@ import productImg2 from '../assets/product-2.jpg'
 import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
 import igboyaImg from '../assets/igboya.jpeg'
+import teKanLeeImg from '../assets/te kan lee.jpeg'
+import fieldMarshalImg from '../assets/fieldmarshal.jpeg'
+import yatchginImg from '../assets/yatchgin.jpeg'
+import splendorLiquerImg from '../assets/splendor liquer.jpeg'
+import splendorBittersImg from '../assets/splendor bitters.jpeg'
+import yatchChocolateVodkaImg from '../assets/yatch chocolate vodka.jpeg'
+import boldGinImg from '../assets/bold gin.jpeg'
 
 export const products = [
   {
@@ -281,5 +288,131 @@ export const products = [
       'Caffeine-free',
       'Supports overall wellness'
     ]
+  },
+  {
+    id: 10,
+    name: 'Te Kan Lee',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: teKanLeeImg,
+    gallery: [teKanLeeImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 11,
+    name: 'Field Marshal',
+    shortDescription: 'Field Marshall Products',
+    fullDescription: '1. Field Marshall Favourite (Sparkling Snow) 200ML & 750ML 2. Field Marshall Vodka 3. Field Marshall Whiskey 4. Field Marshall Spirit Drive (Gin Flavour) 5. Eastwood Native GIn (From Palm WIne) 6. Eastwood Liquer',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: fieldMarshalImg,
+    gallery: [fieldMarshalImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 12,
+    name: 'Yatchgin',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: yatchginImg,
+    gallery: [yatchginImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 13,
+    name: 'Splendor Liquer',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: splendorLiquerImg,
+    gallery: [splendorLiquerImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 14,
+    name: 'Splendor Bitters',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: splendorBittersImg,
+    gallery: [splendorBittersImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 15,
+    name: 'Yatch Chocolate Vodka',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: yatchChocolateVodkaImg,
+    gallery: [yatchChocolateVodkaImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 16,
+    name: 'Bold Gin',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: boldGinImg,
+    gallery: [boldGinImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
   }
 ]
