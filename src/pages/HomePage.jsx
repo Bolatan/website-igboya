@@ -34,7 +34,7 @@ const HomePage = () => {
             <div className="order-1 md:order-2" data-aos="fade-left">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/6280696/pexels-photo-6280696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="/src/assets/5.jpeg"
                   alt="Traditional herbal preparation"
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />
