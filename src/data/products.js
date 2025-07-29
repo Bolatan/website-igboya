@@ -3,14 +3,7 @@ import productImg1 from '../assets/product-1.jpg'
 import productImg2 from '../assets/product-2.jpg'
 import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
-import igboyaImg from '../assets/igboya.jpeg'
-import teKanLeeImg from '../assets/te kan lee.jpeg'
-import fieldMarshalImg from '../assets/fieldmarshal.jpeg'
-import yatchginImg from '../assets/yatchgin.jpeg'
-import splendorLiquerImg from '../assets/splendor liquer.jpeg'
-import splendorBittersImg from '../assets/splendor bitters.jpeg'
-import yatchChocolateVodkaImg from '../assets/yatch chocolate vodka.jpeg'
-import boldGinImg from '../assets/bold gin.jpeg'
+
 
 export const products = [
   {
@@ -134,6 +127,7 @@ export const products = [
       'Improves blood circulation',
       'Natural antioxidant properties'
     ]
+
   },
   {
     id: 5,
