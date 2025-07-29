@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import ProductCard from './ProductCard'
 import { products } from '../data/products'
+import { Link } from 'react-router-dom'
 
 const FeaturedProducts = () => {
   // Get featured products
@@ -58,7 +59,13 @@ const FeaturedProducts = () => {
           <Slider {...settings}>
             {featuredProducts.map(product => (
               <div key={product.id} className="px-2">
-                <ProductCard product={product} hidePrice={true} />
+                {product.name === 'Te Kan Lee' ? (
+                  <Link to="/te-kan-le">
+                    <ProductCard product={product} hidePrice={true} />
+                  </Link>
+                ) : (
+                  <ProductCard product={product} hidePrice={true} />
+                )}
               </div>
             ))}
           </Slider>
