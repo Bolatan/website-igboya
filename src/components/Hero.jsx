@@ -76,7 +76,7 @@ const Hero = () => {
             >
               {products.map(product => (
                 <SwiperSlide key={product.id} style={{ width: '320px' }}>
-                  <ProductCard product={product} />
+                  <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                 </SwiperSlide>
               ))}
 
