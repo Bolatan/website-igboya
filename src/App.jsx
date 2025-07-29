@@ -13,6 +13,7 @@ import ContactPage from './pages/ContactPage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import NotFoundPage from './pages/NotFoundPage'
+import TeeKanLePage from './pages/TeeKanLePage'
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:id" element={<BlogPostPage />} />
+          <Route path="/te-kan-le" element={<TeeKanLePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>

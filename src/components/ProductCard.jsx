@@ -11,12 +11,15 @@ const ProductCard = ({ product, hidePrice }) => {
     addToCart(product)
   }
 
+  const isTeKanLe = product.name === 'Te Kan Lee';
+  const cardLink = isTeKanLe ? '/te-kan-le' : `/products/${product.id}`;
+
   return (
     <div 
       className="product-card" 
       data-aos="fade-up"
     >
-      <Link to={`/products/${product.id}`}>
+      <Link to={cardLink}>
         <div className="relative overflow-hidden">
           <img 
             src={product.image} 
