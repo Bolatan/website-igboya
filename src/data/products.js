@@ -5,6 +5,7 @@ import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
 import productImg5 from '../assets/2.jpeg'
 import productImg6 from '../assets/3.jpeg'
+import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/te kan lee.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
 
@@ -303,6 +304,24 @@ export const products = [
     category: 'standard',
     image: productImg6,
     gallery: [productImg6],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 19,
+    name: 'New Product 3',
+    shortDescription: 'Another new product.',
+    fullDescription: 'Another new product.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: productImg7,
+    gallery: [productImg7],
     featured: true,
     isNew: true,
     rating: 5,
