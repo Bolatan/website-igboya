@@ -8,6 +8,12 @@ import productImg6 from '../assets/3.jpeg'
 import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/te kan lee.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
+import fieldmarshalImg from '../assets/fieldmarshal.jpeg'
+import yatchginImg from '../assets/yatchgin.jpeg'
+import splendorLiquerImg from '../assets/splendor liquer.jpeg'
+import splendorBittersImg from '../assets/splendor bitters.jpeg'
+import yatchChocolateVodkaImg from '../assets/yatch chocolate vodka.jpeg'
+import boldGinImg from '../assets/bold gin.jpeg'
 
 
 export const products = [
@@ -322,6 +328,114 @@ export const products = [
     category: 'standard',
     image: productImg7,
     gallery: [productImg7],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 20,
+    name: 'Field Marshal',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: fieldmarshalImg,
+    gallery: [fieldmarshalImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 21,
+    name: 'Yatch Gin',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: yatchginImg,
+    gallery: [yatchginImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 22,
+    name: 'Splendor Liquer',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: splendorLiquerImg,
+    gallery: [splendorLiquerImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 23,
+    name: 'Splendor Bitters',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: splendorBittersImg,
+    gallery: [splendorBittersImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 24,
+    name: 'Yatch Chocolate Vodka',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: yatchChocolateVodkaImg,
+    gallery: [yatchChocolateVodkaImg],
+    featured: true,
+    isNew: true,
+    rating: 5,
+    reviews: 0,
+    stock: 10,
+    ingredients: [],
+    benefits: []
+  },
+  {
+    id: 25,
+    name: 'Bold Gin',
+    shortDescription: 'A fine spirit.',
+    fullDescription: 'A fine spirit.',
+    price: 0,
+    discount: 0,
+    category: 'standard',
+    image: boldGinImg,
+    gallery: [boldGinImg],
     featured: true,
     isNew: true,
     rating: 5,
