@@ -74,7 +74,7 @@ const Hero = () => {
               modules={[EffectCoverflow, Pagination, Navigation]}
               className="w-full"
             >
-              {products.map(product => (
+              {products.filter(p => [4, 17, 18].includes(p.id)).map(product => (
                 <SwiperSlide key={product.id} style={{ width: '320px' }}>
                   <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                 </SwiperSlide>
