@@ -168,7 +168,7 @@ export const products = [
   },
   {
     id: 19,
-    name: 'New Product 3',
+    name: 'Igboya Bitters',
     shortDescription: 'Another new product.',
     fullDescription: 'Another new product.',
     price: 0,
