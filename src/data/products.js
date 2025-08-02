@@ -18,39 +18,6 @@ import boldGinImg from '../assets/bold gin.jpeg'
 
 export const products = [
   {
-    id: 4,
-    name: 'Igboya Bitters - Honey Infused 750ml',
-    shortDescription: 'Our premium bitters with an extra touch of natural honey.',
-    fullDescription: 'For those who prefer a sweeter taste profile, our Honey Infused variant combines our traditional herbal formula with an extra measure of pure Nigerian honey. This special blend offers the same health benefits as our classic formula but with a smoother taste that appeals to those new to herbal bitters. The 750ml bottle is perfect for regular users.',
-    price: 5000,
-    discount: 0,
-    category: 'premium',
-    image: productImg4,
-    gallery: [productImg4, productImg1, productImg3],
-    featured: true,
-    isNew: true,
-    rating: 5,
-    reviews: 38,
-    stock: 15,
-    ingredients: [
-      'Bitter Kola',
-      'Aloe Vera',
-      'Garlic Extract',
-      'Ginger Root',
-      'Extra Honey',
-      'Traditional Herbs'
-    ],
-    benefits: [
-      'Smoother taste profile',
-      'Supports digestive health',
-      'Boosts immune system',
-      'Enhances energy levels',
-      'Improves blood circulation',
-      'Natural antioxidant properties'
-    ]
-
-  },
-  {
     id: 5,
     name: 'Igboya Bitters - Family Pack',
     shortDescription: 'Special bundle of 750ml, 375ml, and 200ml bottles.',
