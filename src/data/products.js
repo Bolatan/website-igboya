@@ -132,7 +132,7 @@ export const products = [
   },
   {
     id: 17,
-    name: 'New Product 1',
+    name: 'Combo',
     shortDescription: 'A new product.',
     fullDescription: 'A new product.',
     price: 0,
