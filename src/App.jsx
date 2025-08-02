@@ -14,6 +14,7 @@ import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import NotFoundPage from './pages/NotFoundPage'
 import TeeKanLePage from './pages/TeeKanLePage'
+import FieldMarshallPage from './pages/FieldMarshallPage'
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:id" element={<BlogPostPage />} />
           <Route path="/te-kan-le" element={<TeeKanLePage />} />
+          <Route path="/field-marshall" element={<FieldMarshallPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
