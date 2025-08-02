@@ -33,11 +33,15 @@ const HomePage = () => {
 
             <div className="order-1 md:order-2" data-aos="fade-left">
               <div className="relative">
-                <img
-                  src="/src/assets/5.jpeg"
-                  alt="Traditional herbal preparation"
-                  className="rounded-lg shadow-lg w-full h-auto object-cover"
-                />
+              <div className="rounded-lg shadow-lg w-full h-auto overflow-hidden">
+  <iframe
+    src="https://www.youtube.com/embed/Wcgx84VHqfM?autoplay=1&mute=1"
+    className="w-full h-64 md:h-80 lg:h-96"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen>
+  </iframe>
+</div>
                 <div className="absolute -bottom-5 -left-5 bg-gold p-4 rounded-lg shadow-md">
                   <p className="text-lg font-bold text-gray-900">100% Natural</p>
                   <p className="text-sm text-gray-800">Traditional Recipe</p>
