@@ -63,6 +63,10 @@ const FeaturedProducts = () => {
                   <Link to="/te-kan-le">
                     <ProductCard product={product} hidePrice={true} />
                   </Link>
+                ) : product.name === 'Field Marshal' ? (
+                  <Link to="/field-marshall">
+                    <ProductCard product={product} hidePrice={true} />
+                  </Link>
                 ) : (
                   <ProductCard product={product} hidePrice={true} />
                 )}
