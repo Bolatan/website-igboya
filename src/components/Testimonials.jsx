@@ -11,7 +11,7 @@ const testimonials = [
     role: 'Fitness Instructor',
     quote: 'Igboya Bitters has been a game-changer for my digestive health. I recommend it to all my clients as part of their wellness routine.',
     rating: 5,
-    image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.unsplash.com/photo-1529688530647-93a6e1916f5f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnZXJpYW58ZW58MHx8MHx8fDA%3D'
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const testimonials = [
     role: 'Nutritionist',
     quote: 'As a nutritionist, I\'m very selective about what I recommend. Igboya Bitters stands out for its quality ingredients and noticeable health benefits.',
     rating: 5,
-    image: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.unsplash.com/photo-1602342323893-b11f757957c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnZXJpYW58ZW58MHx8MHx8fDA%3D'
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const testimonials = [
     role: 'Business Executive',
     quote: 'My high-stress job was taking a toll on my health. Igboya Bitters has helped me maintain my energy levels and manage stress better.',
     rating: 4,
-    image: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.unsplash.com/photo-1584713945776-55f3daca7a5b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYW58ZW58MHx8MHx8fDA%3D'
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const testimonials = [
     role: 'Herbalist',
     quote: 'I\'ve studied traditional herbal medicine for decades, and Igboya Bitters upholds the highest standards of quality and efficacy in herbal formulation.',
     rating: 5,
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.unsplash.com/photo-1589707181684-24a34853641d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmlnZXJpYW58ZW58MHx8MHx8fDA%3D'
   }
 ]
 
