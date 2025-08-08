@@ -88,18 +88,6 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink 
-                    to="/blog" 
-                    className={({isActive}) => 
-                      `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white hover:text-gold'
-                      }`
-                    }
-                  >
-                    Blog
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
                     to="/contact" 
                     className={({isActive}) => 
                       `nav-link ${isActive ? 'active' : ''} ${
@@ -193,17 +181,6 @@ const Header = () => {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Products
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
-                    to="/blog" 
-                    className={({isActive}) => 
-                      `text-white text-xl font-medium ${isActive ? 'font-bold' : ''}`
-                    }
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Blog
                   </NavLink>
                 </li>
                 <li>
