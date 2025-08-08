@@ -3,7 +3,6 @@ import Hero from '../components/Hero'
 import FeaturedProducts from '../components/FeaturedProducts'
 import Benefits from '../components/Benefits'
 import Testimonials from '../components/Testimonials'
-import Newsletter from '../components/Newsletter'
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
 
@@ -121,9 +120,6 @@ const HomePage = () => {
       <Benefits />
 
       <Testimonials />
-
-
-      <Newsletter />
     </>
   )
 }
