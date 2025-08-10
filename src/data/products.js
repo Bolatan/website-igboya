@@ -136,8 +136,30 @@ export const products = [
   {
     id: 19,
     name: 'Igboya Bitters',
-    shortDescription: 'Another new product.',
-    fullDescription: 'Another new product.',
+    shortDescription: "Nature's Premium Herbal Blend.",
+    fullDescription: `Igboya Bitters: Nature's Premium Herbal Blend
+Discover the Power of Traditional Wellness
+Igboya Bitters represents the perfect marriage of time-honored herbal wisdom and modern craftsmanship. This premium alcoholic herbal drink is meticulously crafted from a carefully curated selection of natural herbs, each chosen for their unique therapeutic properties and centuries of traditional use.
+Artfully Blended for Maximum Potency
+Our master blenders have spent years perfecting the precise combination of natural herbs that make Igboya Bitters truly exceptional. Every bottle contains a harmonious blend of potent botanicals, expertly balanced to deliver both exceptional taste and comprehensive wellness benefits.
+Comprehensive Health Benefits
+Immune System Support
+Strengthen your body's natural defenses with our powerful blend of immune-boosting herbs. Regular consumption helps fortify your system against common ailments and seasonal challenges.
+Natural Body Cleanser
+Experience the purifying power of nature as Igboya Bitters works to cleanse and detoxify your system, promoting overall vitality and well-being.
+Fertility Enhancement
+Traditional herbs known for their fertility-supporting properties have been carefully incorporated to support reproductive health naturally.
+Pain Management Solutions
+•	Back Ache Relief: Find comfort from persistent back pain with our targeted herbal formula
+•	Waist Pain Remedy: Address lower back and waist discomfort naturally
+•	Menstrual Pain Relief: Gentle yet effective support for women's monthly comfort
+Digestive Health Support
+Our specially selected herbs also provide relief for digestive concerns, including support for those dealing with hemorrhoids and related discomfort.
+The Igboya Difference
+What sets Igboya Bitters apart is our unwavering commitment to quality and authenticity. We source only the finest natural herbs, ensuring that each bottle delivers the full spectrum of benefits that nature intended. Our traditional preparation methods preserve the potency and effectiveness of these time-tested remedies.
+Experience Wellness Naturally
+Igboya Bitters isn't just a drink – it's a daily wellness ritual that connects you to the healing power of nature. Whether you're seeking to boost your immune system, cleanse your body, or address specific health concerns, our carefully crafted herbal blend offers a natural path to better health.
+Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where nature meets wellness in every bottle.`,
     price: 0,
     discount: 0,
     category: 'standard',

@@ -16,6 +16,7 @@ import BlogPostPage from './pages/BlogPostPage'
 import NotFoundPage from './pages/NotFoundPage'
 import TeeKanLePage from './pages/TeeKanLePage'
 import FieldMarshallPage from './pages/FieldMarshallPage'
+import IgboyaBittersPage from './pages/IgboyaBittersPage'
 
 function App() {
   useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
           <Route path="/blog/:id" element={<BlogPostPage />} />
           <Route path="/te-kan-le" element={<TeeKanLePage />} />
           <Route path="/field-marshall" element={<FieldMarshallPage />} />
+          <Route path="/igboya-bitters" element={<IgboyaBittersPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
