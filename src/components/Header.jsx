@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { FaShoppingCart, FaSearch, FaBars, FaTimes } from 'react-icons/fa'
-import { useCart } from '../contexts/CartContext'
+import { FaSearch, FaBars, FaTimes } from 'react-icons/fa'
 import Logo from './Logo'
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const { cartItems } = useCart()
   const location = useLocation()
   const isHomePage = location.pathname === '/'
-  
-  const totalItems = cartItems.reduce((total, item) => total + item.quantity, 0)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -109,19 +105,6 @@ const Header = () => {
               >
                 <FaSearch size={18} />
               </button>
-              <Link to="/cart" className="relative">
-                <FaShoppingCart 
-                  size={20} 
-                  className={`${
-                    isSticky ? 'text-gray-800' : 'text-white'
-                  } hover:text-gold transition-colors`} 
-                />
-                {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-gold text-xs text-gray-900 font-bold rounded-full w-5 h-5 flex items-center justify-center">
-                    {totalItems}
-                  </span>
-                )}
-              </Link>
             </div>
           </div>
           
@@ -201,18 +184,6 @@ const Header = () => {
               <button className="text-white hover:text-gold transition-colors">
                 <FaSearch size={20} />
               </button>
-              <Link 
-                to="/cart"
-                className="relative"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <FaShoppingCart size={22} className="text-white hover:text-gold transition-colors" />
-                {totalItems > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-gold text-xs text-gray-900 font-bold rounded-full w-5 h-5 flex items-center justify-center">
-                    {totalItems}
-                  </span>
-                )}
-              </Link>
             </div>
           </div>
         </div>
