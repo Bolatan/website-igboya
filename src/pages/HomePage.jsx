@@ -41,10 +41,6 @@ const HomePage = () => {
     allowFullScreen>
   </iframe>
 </div>
-                <div className="absolute -bottom-5 -left-5 bg-gold p-4 rounded-lg shadow-md">
-                  <p className="text-lg font-bold text-gray-900">100% Natural</p>
-                  <p className="text-sm text-gray-800">Traditional Recipe</p>
-                </div>
               </div>
             </div>
           </div>
