@@ -59,17 +59,7 @@ const FeaturedProducts = () => {
           <Slider {...settings}>
             {featuredProducts.map(product => (
               <div key={product.id} className="px-2">
-                {product.name === 'Te Kan Lee' ? (
-                  <Link to="/te-kan-le">
-                    <ProductCard product={product} hidePrice={true} />
-                  </Link>
-                ) : product.name === 'Field Marshal' ? (
-                  <Link to="/field-marshall">
-                    <ProductCard product={product} hidePrice={true} />
-                  </Link>
-                ) : (
-                  <ProductCard product={product} hidePrice={true} />
-                )}
+                <ProductCard product={product} hidePrice={true} />
               </div>
             ))}
           </Slider>

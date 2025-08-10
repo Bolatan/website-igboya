@@ -12,17 +12,26 @@ const ProductCard = ({ product, hidePrice }) => {
   }
 
   const isTeKanLe = product.name === 'Te Kan Lee';
-  const cardLink = isTeKanLe ? '/te-kan-le' : `/products/${product.id}`;
+  const isFieldMarshal = product.name === 'Field Marshal';
+  const isIgboyaBitters = product.name === 'Igboya Bitters';
+
+  const cardLink = isTeKanLe
+    ? '/te-kan-le'
+    : isFieldMarshal
+    ? '/field-marshall'
+    : isIgboyaBitters
+    ? '/igboya-bitters'
+    : `/products/${product.id}`;
 
   return (
-    <div 
-      className="product-card" 
+    <div
+      className="product-card"
       data-aos="fade-up"
     >
       <Link to={cardLink}>
         <div className="relative overflow-hidden">
-          <img 
-            src={product.image} 
+          <img
+            src={product.image}
             alt={product.name} 
             className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
           />
