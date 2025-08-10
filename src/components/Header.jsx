@@ -39,7 +39,7 @@ const Header = () => {
           <Link to="/" className="z-10 flex items-center space-x-2">
             <Logo color={isSticky ? '#1a5e1a' : '#FFFFFF'} />
             <span className={`text-lg font-semibold ${isSticky ? 'text-gray-800' : 'text-white'}`}>
-              Edwin Eastwood Russ Distilleries and Foods Ltd
+              Edwin Eastwood Russ Distilleries and Food Ltd
             </span>
           </Link>
           
