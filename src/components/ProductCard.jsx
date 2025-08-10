@@ -64,34 +64,6 @@ const ProductCard = ({ product, hidePrice }) => {
           <h3 className="text-lg font-semibold mb-1">{product.name}</h3>
           
           <p className="text-gray-600 text-sm mb-3">{product.shortDescription}</p>
-          
-          {!hidePrice && (
-            <div className="flex justify-between items-center">
-              <div className="flex items-center">
-                {product.discount > 0 ? (
-                  <>
-                    <span className="text-lg font-bold text-primary-green">
-                      ₦{(product.price * (1 - product.discount / 100)).toFixed(2)}
-                    </span>
-                    <span className="text-sm text-gray-500 line-through ml-2">
-                      ₦{product.price.toFixed(2)}
-                    </span>
-                  </>
-                ) : (
-                  <span className="text-lg font-bold text-primary-green">
-                    ₦{product.price.toFixed(2)}
-                  </span>
-                )}
-              </div>
-
-              <button
-                onClick={handleAddToCart}
-                className="p-2 bg-primary-green text-white rounded-full hover:bg-dark-green transition-colors"
-              >
-                <FaShoppingCart size={16} />
-              </button>
-            </div>
-          )}
         </div>
       </Link>
     </div>

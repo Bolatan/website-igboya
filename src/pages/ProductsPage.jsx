@@ -6,7 +6,6 @@ import { FaFilter, FaTimes, FaSortAmountDown, FaSortAmountUp } from 'react-icons
 const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState(products)
   const [activeCategory, setActiveCategory] = useState('all')
-  const [priceRange, setPriceRange] = useState([0, 10000])
   const [sortBy, setSortBy] = useState('default')
   const [showFilters, setShowFilters] = useState(false)
   
@@ -16,23 +15,16 @@ const ProductsPage = () => {
   // Handle filter changes
   const handleCategoryChange = (category) => {
     setActiveCategory(category)
-    applyFilters(category, priceRange, sortBy)
-  }
-  
-  const handlePriceChange = (e) => {
-    const newPriceRange = [...priceRange]
-    newPriceRange[1] = parseInt(e.target.value)
-    setPriceRange(newPriceRange)
-    applyFilters(activeCategory, newPriceRange, sortBy)
+    applyFilters(category, sortBy)
   }
   
   const handleSortChange = (value) => {
     setSortBy(value)
-    applyFilters(activeCategory, priceRange, value)
+    applyFilters(activeCategory, value)
   }
   
   // Apply all filters
-  const applyFilters = (category, price, sort) => {
+  const applyFilters = (category, sort) => {
     let result = [...products]
     
     // Apply category filter
@@ -40,19 +32,8 @@ const ProductsPage = () => {
       result = result.filter(product => product.category === category)
     }
     
-    // Apply price filter
-    result = result.filter(product => 
-      product.price >= price[0] && product.price <= price[1]
-    )
-    
     // Apply sorting
     switch (sort) {
-      case 'price-asc':
-        result.sort((a, b) => a.price - b.price)
-        break
-      case 'price-desc':
-        result.sort((a, b) => b.price - a.price)
-        break
       case 'name-asc':
         result.sort((a, b) => a.name.localeCompare(b.name))
         break
@@ -102,8 +83,6 @@ const ProductsPage = () => {
                   className="border rounded px-2 py-1 text-sm"
                 >
                   <option value="default">Featured</option>
-                  <option value="price-asc">Price: Low to High</option>
-                  <option value="price-desc">Price: High to Low</option>
                   <option value="name-asc">Name: A to Z</option>
                   <option value="name-desc">Name: Z to A</option>
                   <option value="rating">Top Rated</option>
@@ -144,25 +123,6 @@ const ProductsPage = () => {
                   </ul>
                 </div>
                 
-                <div className="mb-8">
-                  <h3 className="text-lg font-semibold mb-4">Price Range</h3>
-                  <div>
-                    <input
-                      type="range"
-                      min="0"
-                      max="10000"
-                      step="500"
-                      value={priceRange[1]}
-                      onChange={handlePriceChange}
-                      className="w-full"
-                    />
-                    <div className="flex justify-between mt-2">
-                      <span>₦0</span>
-                      <span>₦{priceRange[1].toLocaleString()}</span>
-                    </div>
-                  </div>
-                </div>
-                
                 <div className="hidden lg:block">
                   <h3 className="text-lg font-semibold mb-4">Sort By</h3>
                   <div className="space-y-2">
@@ -175,26 +135,6 @@ const ProductsPage = () => {
                         className="mr-2"
                       />
                       Featured
-                    </label>
-                    <label className="flex items-center">
-                      <input
-                        type="radio"
-                        name="sort"
-                        checked={sortBy === 'price-asc'}
-                        onChange={() => handleSortChange('price-asc')}
-                        className="mr-2"
-                      />
-                      Price: Low to High
-                    </label>
-                    <label className="flex items-center">
-                      <input
-                        type="radio"
-                        name="sort"
-                        checked={sortBy === 'price-desc'}
-                        onChange={() => handleSortChange('price-desc')}
-                        className="mr-2"
-                      />
-                      Price: High to Low
                     </label>
                     <label className="flex items-center">
                       <input
@@ -226,8 +166,6 @@ const ProductsPage = () => {
                     className="border rounded px-3 py-1.5"
                   >
                     <option value="default">Featured</option>
-                    <option value="price-asc">Price: Low to High</option>
-                    <option value="price-desc">Price: High to Low</option>
                     <option value="name-asc">Name: A to Z</option>
                     <option value="name-desc">Name: Z to A</option>
                     <option value="rating">Top Rated</option>
