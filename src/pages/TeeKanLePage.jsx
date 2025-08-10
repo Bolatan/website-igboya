@@ -3,9 +3,6 @@ import React from 'react'
 const TeeKanLePage = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gold">
-        Tee KAN LE Herbal Mixture (Knack Am Down)
-      </h1>
       <p className="text-lg md:text-xl mb-6">
         Premium Non-Alcoholic Herbal Wellness Drink
       </p>
