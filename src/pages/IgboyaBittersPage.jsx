@@ -43,6 +43,23 @@ const IgboyaBittersPage = () => {
           <p>Our specially selected herbs also provide relief for digestive concerns, including support for those dealing with hemorrhoids and related discomfort.</p>
         </li>
       </ul>
+
+      <h2 className="text-2xl font-bold mt-8 mb-4">How to Use Igboya Bitters</h2>
+      <p className="mb-4">
+        For optimal results, follow these simple instructions:
+      </p>
+      <ul className="list-disc list-inside mb-4">
+          <li className="mb-2">
+              <span className="font-bold">Dosage:</span> Take 30ml (one shot) twice daily, preferably before meals.
+          </li>
+          <li className="mb-2">
+              <span className="font-bold">Consistency is Key:</span> For best results, use consistently every day.
+          </li>
+          <li className="mb-2">
+              <span className="font-bold">Shake Well:</span> Always shake the bottle well before use to ensure the herbal ingredients are evenly distributed.
+          </li>
+      </ul>
+
       <h2 className="text-2xl font-bold mt-8 mb-4">The Igboya Difference</h2>
       <p className="mb-4">
         What sets Igboya Bitters apart is our unwavering commitment to quality and authenticity. We source only the finest natural herbs, ensuring that each bottle delivers the full spectrum of benefits that nature intended. Our traditional preparation methods preserve the potency and effectiveness of these time-tested remedies.
