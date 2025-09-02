@@ -38,18 +38,6 @@ const Hero = () => {
             >
               Discover the secret to vitality with our premium herbal bitters, crafted from traditional recipes.
             </p>
-            <div
-              className="flex flex-col sm:flex-row gap-4"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <Link to="/products" className="btn btn-gold">
-                Shop Now
-              </Link>
-              <Link to="/about" className="btn btn-secondary text-white border-white hover:bg-white hover:bg-opacity-20">
-                Learn More
-              </Link>
-            </div>
           </div>
 
           <div className="w-full" data-aos="fade-left" data-aos-delay="400">
