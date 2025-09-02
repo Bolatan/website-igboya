@@ -2,18 +2,18 @@ import React from 'react';
 import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 
-const FieldMarshallPage = () => {
-  const fieldMarshallProducts = products.filter(
-    (product) => product.category === 'field-marshall' || product.category === 'eastwood'
+const EastwoodPage = () => {
+  const eastwoodProducts = products.filter(
+    (product) => product.category === 'eastwood'
   );
 
   return (
     <div className="pt-20">
       <div className="bg-primary-green py-16 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Field Marshall & Eastwood</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Eastwood Collection</h1>
           <p className="max-w-2xl mx-auto text-lg opacity-90">
-            A selection of our finest spirits, from the classic Field Marshall range to the unique Eastwood collection.
+            A selection of our finest spirits from the unique Eastwood collection.
           </p>
         </div>
       </div>
@@ -21,8 +21,8 @@ const FieldMarshallPage = () => {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {fieldMarshallProducts.length > 0 ? (
-              fieldMarshallProducts.map((product) => (
+            {eastwoodProducts.length > 0 ? (
+              eastwoodProducts.map((product) => (
                 <ProductCard key={product.id} product={product} />
               ))
             ) : (
@@ -40,4 +40,4 @@ const FieldMarshallPage = () => {
   );
 };
 
-export default FieldMarshallPage;
+export default EastwoodPage;

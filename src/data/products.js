@@ -8,7 +8,6 @@ import productImg6 from '../assets/3.jpeg'
 import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/te kan lee.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
-import fieldmarshalImg from '../assets/fieldmarshal.jpeg'
 import yatchginImg from '../assets/yatchgin.jpeg'
 import splendorLiquerImg from '../assets/splendor liquer.jpeg'
 import splendorBittersImg from '../assets/splendor bitters.jpeg'
@@ -174,24 +173,6 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     benefits: []
   },
   {
-    id: 20,
-    name: 'Field Marshal',
-    shortDescription: 'A range of premium spirits.',
-    fullDescription: 'Field Marshal offers a selection of high-quality spirits, including Vodka, Whiskey, and Gin-flavoured drinks.',
-    price: 0,
-    discount: 0,
-    category: 'field-marshall-main',
-    image: fieldmarshalImg,
-    gallery: [fieldmarshalImg],
-    featured: true,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: []
-  },
-  {
     id: 21,
     name: 'Yatch Gin',
     shortDescription: 'A fine spirit.',
@@ -274,78 +255,6 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     image: boldGinImg,
     gallery: [boldGinImg],
     featured: true,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: []
-  },
-  {
-    id: 26,
-    name: 'Field Marshall Favourite (Sparkling Snow) 200ML & 750ML',
-    shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
-    price: 0,
-    discount: 0,
-    category: 'field-marshall',
-    image: fieldmarshalImg,
-    gallery: [fieldmarshalImg],
-    featured: false,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: []
-  },
-  {
-    id: 27,
-    name: 'Field Marshall Vodka',
-    shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
-    price: 0,
-    discount: 0,
-    category: 'field-marshall',
-    image: fieldmarshalImg,
-    gallery: [fieldmarshalImg],
-    featured: false,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: []
-  },
-  {
-    id: 28,
-    name: 'Field Marshall Whiskey',
-    shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
-    price: 0,
-    discount: 0,
-    category: 'field-marshall',
-    image: fieldmarshalImg,
-    gallery: [fieldmarshalImg],
-    featured: false,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: []
-  },
-  {
-    id: 29,
-    name: 'Field Marshall Spirit Drive (Gin Flavour)',
-    shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
-    price: 0,
-    discount: 0,
-    category: 'field-marshall',
-    image: fieldmarshalImg,
-    gallery: [fieldmarshalImg],
-    featured: false,
     isNew: true,
     rating: 5,
     reviews: 0,
