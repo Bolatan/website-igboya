@@ -58,8 +58,7 @@ const ProductCard = ({ product, hidePrice }) => {
                 />
               ))}
             </div>
-            <span className="text-sm text-gray-500 ml-2">({product.reviews} reviews)</span>
-          </div>
+            </div>
           
           <h3 className="text-lg font-semibold mb-1">{product.name}</h3>
           
