@@ -69,27 +69,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
-            <h3 className="text-xl font-semibold mb-4">Newsletter</h3>
-            <p className="text-gray-400 mb-4">
-              Subscribe to receive updates on new products, special offers, and health tips.
-            </p>
-            <form>
-              <div className="flex flex-col space-y-2">
-                <input 
-                  type="email" 
-                  placeholder="Your email address" 
-                  className="bg-gray-800 text-gray-200 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-gold"
-                />
-                <button 
-                  type="submit" 
-                  className="bg-gold text-gray-900 px-4 py-2 rounded font-medium hover:bg-opacity-90 transition-colors"
-                >
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
         </div>
         
         <div className="border-t border-gray-800 py-6">
