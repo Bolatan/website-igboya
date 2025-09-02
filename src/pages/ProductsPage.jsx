@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import { products } from '../data/products'
+import { products as allProducts } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import { FaFilter, FaTimes, FaSortAmountDown, FaSortAmountUp } from 'react-icons/fa'
+
+const products = allProducts.filter(p => p.name.includes('Igboya') || p.name === 'Te Kan Lee');
 
 const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState(products)
