@@ -3,6 +3,13 @@ import React from 'react'
 const IgboyaBittersPage = () => {
   return (
     <div className="container mx-auto px-4 py-16">
+      <div className="mb-8">
+        <img
+          src="/images/igboya-bitters.jpeg"
+          alt="Igboya Bitters"
+          className="w-full h-auto object-cover rounded-lg shadow-lg"
+        />
+      </div>
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gold">
         Igboya Bitters: Nature's Premium Herbal Blend
       </h1>
