@@ -1,13 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/effect-coverflow'
-import 'swiper/css/pagination'
-import 'swiper/css/navigation'
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
-import { products } from '../data/products'
-import ProductCard from './ProductCard'
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+
+const newImages = [
+  '/images/a.jpeg',
+  '/images/b.jpeg',
+  '/images/c.jpeg',
+];
 
 const Hero = () => {
   return (
@@ -62,9 +65,9 @@ const Hero = () => {
               modules={[EffectCoverflow, Pagination, Navigation]}
               className="w-full"
             >
-              {products.filter(p => [17, 18].includes(p.id)).map(product => (
-                <SwiperSlide key={product.id} style={{ width: '320px' }}>
-                  <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+              {newImages.map((image, index) => (
+                <SwiperSlide key={index} style={{ width: '320px' }}>
+                  <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
                 </SwiperSlide>
               ))}
 
