@@ -3,7 +3,20 @@ import { products as allProducts } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import { FaFilter, FaTimes, FaSortAmountDown, FaSortAmountUp } from 'react-icons/fa'
 
-const products = allProducts.filter(p => p.name.includes('Igboya') || p.name === 'Te Kan Lee');
+const productsToShow = [
+  "yatch chocolate vodka",
+  "bold gin",
+  "yatch gin",
+  "splendour liquor",
+  "splendor liquer",
+  "splendour bitters",
+  "splendor bitters",
+];
+
+const products = allProducts.filter(p => {
+  const lowerCaseName = p.name.toLowerCase();
+  return productsToShow.includes(lowerCaseName) || p.name.includes('Igboya') || p.name === 'Te Kan Lee';
+});
 
 const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState(products)
