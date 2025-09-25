@@ -3,17 +3,21 @@ import React from 'react'
 const TeeKanLePage = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="flex justify-center">
-        <img
-          src="/images/teekanle.jpeg"
-          alt="Tee KAN LE Herbal Mixture"
-          className="rounded-lg shadow-lg max-w-full md:max-w-2xl"
-        />
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="md:w-1/2 flex justify-center">
+          <img
+            src="/images/teekanle.jpeg"
+            alt="Tee KAN LE Herbal Mixture"
+            className="rounded-lg shadow-lg max-w-full md:max-w-md"
+          />
+        </div>
+        <div className="md:w-1/2 mt-8 md:mt-0 md:pl-8">
+          <p className="mb-4">
+            …….Awaken Your Vitality, Excite Your Taste Buds Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that's transforming lives across the nation. This meticulously crafted blend doesn't just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.
+          </p>
+        </div>
       </div>
       <div className="mt-8">
-        <p className="mb-4">
-        …….Awaken Your Vitality, Excite Your Taste Buds Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that's transforming lives across the nation. This meticulously crafted blend doesn't just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.
-      </p>
       <h2 className="text-2xl font-bold mt-8 mb-4">A Symphony of Natural Healing</h2>
       <p className="mb-4">
         Tee KAN LE is more than just a drink – it's your daily passport to optimal health and vitality. Each bottle contains a carefully balanced fusion of premium herbal extracts, specifically formulated to work in harmony with your body's natural processes.
