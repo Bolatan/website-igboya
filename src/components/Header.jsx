@@ -28,7 +28,7 @@ const Header = () => {
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
         isSticky 
-          ? 'bg-white shadow-md' 
+          ? 'bg-white shadow-md sticky'
           : isHomePage 
             ? 'bg-transparent' 
             : 'bg-primary-green'
@@ -51,7 +51,7 @@ const Header = () => {
                     to="/" 
                     className={({isActive}) => 
                       `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white hover:text-gold'
+                        isSticky ? 'text-gray-800' : 'text-white'
                       }`
                     }
                   >
@@ -63,7 +63,7 @@ const Header = () => {
                     to="/about" 
                     className={({isActive}) => 
                       `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white hover:text-gold'
+                        isSticky ? 'text-gray-800' : 'text-white'
                       }`
                     }
                   >
@@ -75,7 +75,7 @@ const Header = () => {
                     to="/products" 
                     className={({isActive}) => 
                       `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white hover:text-gold'
+                        isSticky ? 'text-gray-800' : 'text-white'
                       }`
                     }
                   >
@@ -87,7 +87,7 @@ const Header = () => {
                     to="/contact" 
                     className={({isActive}) => 
                       `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white hover:text-gold'
+                        isSticky ? 'text-gray-800' : 'text-white'
                       }`
                     }
                   >
