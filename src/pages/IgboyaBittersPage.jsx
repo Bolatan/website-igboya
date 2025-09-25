@@ -10,7 +10,7 @@ const IgboyaBittersPage = () => {
           className="w-full h-auto object-cover rounded-lg shadow-lg"
         />
       </div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gold">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
         Igboya Bitters: Nature's Premium Herbal Blend
       </h1>
       <p className="text-lg md:text-xl mb-6">
