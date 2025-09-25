@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function AboutPage() {
   return (
@@ -56,22 +57,22 @@ function AboutPage() {
                   <td className="px-6 py-4">“Field Marshall” is a premium Gin blended from Palm wine into Spirit varieties of Gin, vodka and flavoured blended herbal spirit.</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">Splendid Bitters</td>
+                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/23" className='hover:text-primary-green'>Splendid Bitters</Link></td>
                   <td className="px-6 py-4 whitespace-nowrap">Alcoholic bitters</td>
                   <td className="px-6 py-4">Another variant of bitters in their portfolio; perhaps targeting different taste profile or pricing tier.</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">Splendid Liqueur</td>
+                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/22" className='hover:text-primary-green'>Splendid Liqueur</Link></td>
                   <td className="px-6 py-4 whitespace-nowrap">Flavored spirit / sweetened liquor</td>
                   <td className="px-6 py-4">Liqueurs tend to be sweeter, lower proof, for cocktail mixing or sipping; fruit and herbal flavored.</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">Yatch Chocolate Vodka</td>
+                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/24" className='hover:text-primary-green'>Yatch Chocolate Vodka</Link></td>
                   <td className="px-6 py-4 whitespace-nowrap">Flavored vodka spirit</td>
                   <td className="px-6 py-4">A novelty / premium product; flavored with chocolate, appealing to consumers wanting dessert/cocktail style flavored spirits.</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap">Yatch Gin</td>
+                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/21" className='hover:text-primary-green'>Yatch Gin</Link></td>
                   <td className="px-6 py-4 whitespace-nowrap">Gin spirit</td>
                   <td className="px-6 py-4">Traditional gin spirits or flavored gin; targeting gin cocktail market.</td>
                 </tr>
