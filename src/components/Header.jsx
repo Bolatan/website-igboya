@@ -26,9 +26,9 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 ${
         isSticky 
-          ? 'bg-white shadow-md sticky'
+          ? 'bg-white shadow-md'
           : isHomePage 
             ? 'bg-transparent' 
             : 'bg-primary-green'
