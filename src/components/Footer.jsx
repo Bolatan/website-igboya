@@ -15,16 +15,17 @@ const Footer = () => {
               following traditional recipes passed down through generations.
             </p>
             <div className="mt-6 flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+              <a href="https://www.facebook.com/p/igboya-bitters-alcoholic-drinks-61575931013050/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
                 <FaFacebook size={22} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+              <a href="https://x.com/EastwoodEdwin" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
                 <FaTwitter size={22} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+              <a href="https://www.instagram.com/eastwoodedwinruss/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
                 <FaInstagram size={22} />
               </a>
-              <a href="https://wa.me/2348126670037" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+              <a href="https://wa.me/+2348126670037" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+
                 <FaWhatsapp size={22} />
               </a>
             </div>
