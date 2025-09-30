@@ -24,71 +24,83 @@ const Header = () => {
     }
   }, [])
 
+  const textColorClass = isSticky
+    ? 'text-gray-800'
+    : isHomePage
+    ? 'text-black'
+    : 'text-white'
+
+  const logoColor = isSticky
+    ? '#1a5e1a'
+    : isHomePage
+    ? '#000000'
+    : '#FFFFFF'
+
   return (
-    <header 
+    <header
       className={`sticky top-0 w-full z-50 transition-all duration-300 ${
-        isSticky 
+        isSticky
           ? 'bg-white shadow-md'
-          : isHomePage 
-            ? 'bg-transparent' 
-            : 'bg-primary-green'
+          : isHomePage
+          ? 'bg-transparent'
+          : 'bg-primary-green'
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="z-10 flex items-center space-x-2">
-            <Logo color={isSticky ? '#1a5e1a' : '#FFFFFF'} />
-            <span className={`text-lg font-semibold ${isSticky ? 'text-gray-800' : 'text-white'}`}>
+            <Logo color={logoColor} />
+            <span className={`text-lg font-semibold ${textColorClass}`}>
               Edwin Eastwood Russ Distilleries and Food Ltd
             </span>
           </Link>
-          
+
           <div className="hidden md:flex items-center space-x-6">
             <nav>
               <ul className="flex space-x-6">
                 <li>
-                  <NavLink 
-                    to="/" 
-                    className={({isActive}) => 
-                      `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white'
-                      }`
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `nav-link ${
+                        isActive ? 'active' : ''
+                      } ${textColorClass}`
                     }
                   >
                     Home
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/about" 
-                    className={({isActive}) => 
-                      `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white'
-                      }`
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      `nav-link ${
+                        isActive ? 'active' : ''
+                      } ${textColorClass}`
                     }
                   >
                     About
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/products" 
-                    className={({isActive}) => 
-                      `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white'
-                      }`
+                  <NavLink
+                    to="/products"
+                    className={({ isActive }) =>
+                      `nav-link ${
+                        isActive ? 'active' : ''
+                      } ${textColorClass}`
                     }
                   >
                     Products
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/contact" 
-                    className={({isActive}) => 
-                      `nav-link ${isActive ? 'active' : ''} ${
-                        isSticky ? 'text-gray-800' : 'text-white'
-                      }`
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      `nav-link ${
+                        isActive ? 'active' : ''
+                      } ${textColorClass}`
                     }
                   >
                     Contact
@@ -96,37 +108,29 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            
+
             <div className="flex items-center space-x-4">
-              <button 
-                className={`${
-                  isSticky ? 'text-gray-800' : 'text-white'
-                } hover:text-gold transition-colors`}
+              <button
+                className={`${textColorClass} hover:text-gold transition-colors`}
               >
                 <FaSearch size={18} />
               </button>
             </div>
           </div>
-          
-          <button 
+
+          <button
             className="md:hidden z-10"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
-              <FaTimes 
-                size={24} 
-                className={isSticky ? 'text-gray-800' : 'text-white'} 
-              />
+              <FaTimes size={24} className={textColorClass} />
             ) : (
-              <FaBars 
-                size={24} 
-                className={isSticky ? 'text-gray-800' : 'text-white'} 
-              />
+              <FaBars size={24} className={textColorClass} />
             )}
           </button>
-          
+
           {/* Mobile Menu */}
-          <div 
+          <div
             className={`fixed inset-0 bg-primary-green bg-opacity-95 flex flex-col items-center justify-center transition-all duration-300 ${
               mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
             } md:hidden`}
@@ -134,10 +138,12 @@ const Header = () => {
             <nav className="mb-8">
               <ul className="flex flex-col items-center space-y-6">
                 <li>
-                  <NavLink 
-                    to="/" 
-                    className={({isActive}) => 
-                      `text-white text-xl font-medium ${isActive ? 'font-bold' : ''}`
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `text-white text-xl font-medium ${
+                        isActive ? 'font-bold' : ''
+                      }`
                     }
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -145,10 +151,12 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/about" 
-                    className={({isActive}) => 
-                      `text-white text-xl font-medium ${isActive ? 'font-bold' : ''}`
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      `text-white text-xl font-medium ${
+                        isActive ? 'font-bold' : ''
+                      }`
                     }
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -156,10 +164,12 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/products" 
-                    className={({isActive}) => 
-                      `text-white text-xl font-medium ${isActive ? 'font-bold' : ''}`
+                  <NavLink
+                    to="/products"
+                    className={({ isActive }) =>
+                      `text-white text-xl font-medium ${
+                        isActive ? 'font-bold' : ''
+                      }`
                     }
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -167,10 +177,12 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink 
-                    to="/contact" 
-                    className={({isActive}) => 
-                      `text-white text-xl font-medium ${isActive ? 'font-bold' : ''}`
+                  <NavLink
+                    to="/contact"
+                    className={({ isActive }) =>
+                      `text-white text-xl font-medium ${
+                        isActive ? 'font-bold' : ''
+                      }`
                     }
                     onClick={() => setMobileMenuOpen(false)}
                   >
@@ -179,7 +191,7 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            
+
             <div className="flex items-center space-x-6">
               <button className="text-white hover:text-gold transition-colors">
                 <FaSearch size={20} />
