@@ -34,7 +34,7 @@ const HomePage = () => {
               <div className="relative">
               <div className="rounded-lg shadow-lg w-full h-auto overflow-hidden">
   <iframe
-    src="https://www.youtube.com/embed/Wcgx84VHqfM?autoplay=1&mute=1"
+    src="https://www.youtube.com/embed/HB7XKKDj-QY?autoplay=1&mute=1"
     className="w-full h-64 md:h-80 lg:h-96"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
