@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
+      <h1 className="text-4xl font-bold text-center mb-8">About Eastwood Edwin Russ Distilleries & Food Limited</h1>
+
       <div className="max-w-4xl mx-auto space-y-8">
         <section>
-          <h1 className="text-4xl font-bold text-center mb-8">The Heritage of Eastwood Edwin Russ Distilleries & Food Ltd.</h1>
+          <h2 className="text-3xl font-bold mb-4"> The Heritage of Eastwood Edwin Russ Distilleries & Food Ltd.</h2>
           <p className="text-lg">
 For generations, Nigerian herbalists have carefully crafted herbal drinks to promote health and vitality.  Eastwood Edwin Russ Distilleries & Food Ltd. continues this tradition with our premiums blend of natural ingredients.
           </p>
@@ -14,6 +16,27 @@ For generations, Nigerian herbalists have carefully crafted herbal drinks to pro
 Our unique formulas combines ancient wisdom with modern production standards to create a product that honors our heritage while meeting today's quality expectations.
           </p>
         </section>
+
+        <hr className="my-8" />
+
+        <section>
+          <h2 className="text-3xl font-bold mb-4">Overview</h2>
+          <p className="text-lg">
+            Eastwood Edwin Russ Distilleries & Food Limited (RC-1217554) is a private Nigerian company, incorporated on October 8, 2014. It operates from its Factories in the Gberigbe Area of Ikorodu LGA of Lagos State and Ukpomili Village Ifitedunu in Dunukofia LGA of Anambra State, with its registered head office address at No. 48, Gberigbe Road, off Ijede Road, Ikorodu, Lagos.
+          </p>
+          <p className="text-lg mt-4">
+            The company is in the business of distilling, blending, packaging, and marketing both alcoholic and non-alcoholic herbal drinks and spirits. Their portfolio includes products that appeal to various segments of the market, including bitters, non-alcoholic beverages, flavored gins, liqueurs, and herbal remedies. The company positions itself as both a manufacturer and brand owner in Nigeria’s fast-moving consumer goods (FMCG) alcohol & herbal drink market.
+          </p>
+          <p className="text-lg mt-4">
+            Ownership structure is partly known:
+          </p>
+          <ul className="list-disc list-inside text-lg">
+            <li>Director: Okafor Ugochukwu Edwin</li>
+            <li>Shareholders include Okafor Helen among others.</li>
+          </ul>
+        </section>
+
+        <hr className="my-8" />
 
         <section>
           <h2 className="text-3xl font-bold mb-4">Brands / Product Lines</h2>
@@ -73,6 +96,42 @@ Our unique formulas combines ancient wisdom with modern production standards to 
               </tbody>
             </table>
           </div>
+        </section>
+
+        <hr className="my-8" />
+
+        <section>
+          <h2 className="text-3xl font-bold mb-4">Our Strengths & Market Position</h2>
+          <ul className="list-disc list-inside space-y-2 text-lg">
+            <li><strong>Diversified Portfolio:</strong> The mix of bitters, non-alcoholic herbal drinks, flavored gin & vodka, and liqueur means Eastwood Edwin Russ has multiple revenue streams and and can appeal across various consumer preferences.</li>
+            <li><strong>Local / Herbal Appeal:</strong> Herbal drinks and bitters are popular in Nigeria, both for cultural reasons and perceived health/functional benefits. Their herbal offerings give them a competitive niche.</li>
+            <li><strong>Innovation:</strong> Products like “Bold Palm Wine Gin,” “Yatch Chocolate Vodka,” etc., show that the company is trying to innovate in flavors, combining traditional elements (palm wine) with modern spirit categories.</li>
+            <li><strong>Strategic Location:</strong> Operating in Lagos State (Ikorodu region) and Dunukofia LGA in Anambra State, gives good access to transport, distribution networks, and a large consumer base.</li>
+          </ul>
+        </section>
+
+        <hr className="my-8" />
+
+        <section>
+          <h2 className="text-3xl font-bold mb-4">Vision & Potential</h2>
+          <p className="text-lg mb-4">Continuing on the current trajectory, Eastwood Edwin Russ Distilleries has the potential to be:</p>
+          <ul className="list-disc list-inside space-y-2 text-lg">
+            <li>A leading herbal beverage firm in Nigeria, especially in bitters & non-alcoholic herbal tonics.</li>
+            <li>A niche premium spirit innovator (through flavored vodka, gin, liqueurs) both for local consumption and possibly export.</li>
+            <li>A cultural brand, where traditional Nigerian flavors (palm wine, herbs) are fused with modern spirits — appealing to diaspora markets.</li>
+          </ul>
+        </section>
+
+        <hr className="my-8" />
+
+        <section>
+          <h2 className="text-3xl font-bold mb-4">Quick Facts Summary</h2>
+          <ul className="list-disc list-inside space-y-2 text-lg">
+            <li><strong>Incorporation date:</strong> 8 October 2014</li>
+            <li><strong>Legal form:</strong> Private Company Limited by Shares</li>
+            <li><strong>Principal address:</strong> No 48, Gberigbe Road, off Ijede Road, Ikorodu, Lagos State</li>
+            <li><strong>Key persons:</strong> Okafor Ugochukwu Edwin (Director / major shareholder), Okafor Helen (shareholder)</li>
+          </ul>
         </section>
       </div>
     </div>
