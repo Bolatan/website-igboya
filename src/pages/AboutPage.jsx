@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold text-center mb-8">About Eastwood Edwin Russ Distilleries & Food Limited</h1>
-
       <div className="max-w-4xl mx-auto space-y-8">
         <section>
           <h2 className="text-3xl font-bold mb-4">Overview</h2>
