@@ -8,18 +8,6 @@ function AboutPage() {
 
       <div className="max-w-4xl mx-auto space-y-8">
         <section>
-          <h2 className="text-3xl font-bold mb-4"> The Heritage of Eastwood Edwin Russ Distilleries & Food Ltd.</h2>
-          <p className="text-lg">
-For generations, Nigerian herbalists have carefully crafted herbal drinks to promote health and vitality.  Eastwood Edwin Russ Distilleries & Food Ltd. continues this tradition with our premiums blend of natural ingredients.
-          </p>
-          <p className="text-lg mt-4">
-Our unique formulas combines ancient wisdom with modern production standards to create a product that honors our heritage while meeting today's quality expectations.
-          </p>
-        </section>
-
-        <hr className="my-8" />
-
-        <section>
           <h2 className="text-3xl font-bold mb-4">Overview</h2>
           <p className="text-lg">
             Eastwood Edwin Russ Distilleries & Food Limited (RC-1217554) is a private Nigerian company, incorporated on October 8, 2014. It operates from its Factories in the Gberigbe Area of Ikorodu LGA of Lagos State and Ukpomili Village Ifitedunu in Dunukofia LGA of Anambra State, with its registered head office address at No. 48, Gberigbe Road, off Ijede Road, Ikorodu, Lagos.
@@ -34,6 +22,18 @@ Our unique formulas combines ancient wisdom with modern production standards to 
             <li>Director: Okafor Ugochukwu Edwin</li>
             <li>Shareholders include Okafor Helen among others.</li>
           </ul>
+        </section>
+
+        <hr className="my-8" />
+
+        <section>
+          <h2 className="text-3xl font-bold mb-4"> The Heritage of Eastwood Edwin Russ Distilleries & Food Ltd.</h2>
+          <p className="text-lg">
+For generations, Nigerian herbalists have carefully crafted herbal drinks to promote health and vitality.  Eastwood Edwin Russ Distilleries & Food Ltd. continues this tradition with our premiums blend of natural ingredients.
+          </p>
+          <p className="text-lg mt-4">
+Our unique formulas combines ancient wisdom with modern production standards to create a product that honors our heritage while meeting today's quality expectations.
+          </p>
         </section>
 
         <hr className="my-8" />
