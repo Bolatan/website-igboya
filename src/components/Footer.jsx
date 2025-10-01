@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaYoutube } from 'react-icons/fa'
 import Logo from './Logo'
 
 const Footer = () => {
@@ -27,6 +27,9 @@ const Footer = () => {
               <a href="https://wa.me/+2348126670037" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
 
                 <FaWhatsapp size={22} />
+              </a>
+              <a href="https://www.youtube.com/watch?v=HB7XKKDj-QY" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+                <FaYoutube size={22} />
               </a>
             </div>
           </div>
