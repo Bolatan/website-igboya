@@ -38,7 +38,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 transition-all duration-300 mb-[10%] ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 mb-[5%] ${
         isSticky
           ? 'bg-white shadow-md'
           : isHomePage
