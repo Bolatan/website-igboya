@@ -13,7 +13,7 @@ const ProductCard = ({ product, hidePrice }) => {
 
   const isTeKanLe = product.name === 'Te Kan Lee';
   const isFieldMarshal = product.name === 'Field Marshal';
-  const isIgboyaBitters = product.name === 'Igboya Bitters';
+  const isIgboyaBitters = product.name.includes('Igboya Bitters');
 
   const cardLink = isTeKanLe
     ? '/te-kan-le'
