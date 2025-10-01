@@ -13,6 +13,16 @@ const TeeKanLePage = () => {
           <p className="mb-4">
             …….Awaken Your Vitality, Excite Your Taste Buds Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that's transforming lives across the nation. This meticulously crafted blend doesn't just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.
           </p>
+          <h2 className="text-2xl font-bold mt-8 mb-4">Your Journey to Wellness Starts Here</h2>
+          <p className="mb-4">
+            Don't let fatigue, poor health, or diminished vitality hold you back from living your best life. Tee KAN LE Herbal Mixture offers you a natural pathway to renewed energy, enhanced performance, and comprehensive wellness.
+          </p>
+          <p className="font-bold">
+            Experience the transformation. Taste the difference. Feel the power.
+          </p>
+          <p className="font-bold mt-4">
+            Tee KAN LE Herbal Mixture – Where Traditional Wisdom Meets Modern Wellness
+          </p>
         </div>
         <div className="md:w-1/2">
           <h2 className="text-2xl font-bold mt-8 md:mt-0 mb-4">A Symphony of Natural Healing</h2>
@@ -79,16 +89,6 @@ const TeeKanLePage = () => {
           <h2 className="text-2xl font-bold mt-8 mb-4">The Tee KAN LE Difference</h2>
           <p className="mb-4">
             Unlike synthetic supplements that may cause unwanted side effects, Tee KAN LE harnesses the gentle yet powerful healing properties of nature. Our unique "Knack Am Down" formula has been developed through extensive research into traditional herbal medicine, creating a modern solution that respects ancient wisdom while delivering contemporary results.
-          </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">Your Journey to Wellness Starts Here</h2>
-          <p className="mb-4">
-            Don't let fatigue, poor health, or diminished vitality hold you back from living your best life. Tee KAN LE Herbal Mixture offers you a natural pathway to renewed energy, enhanced performance, and comprehensive wellness.
-          </p>
-          <p className="font-bold">
-            Experience the transformation. Taste the difference. Feel the power.
-          </p>
-          <p className="font-bold mt-4">
-            Tee KAN LE Herbal Mixture – Where Traditional Wisdom Meets Modern Wellness
           </p>
         </div>
       </div>
