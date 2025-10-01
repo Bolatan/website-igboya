@@ -51,7 +51,7 @@ const FeaturedProducts = () => {
             Featured Products
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-            Discover our most popular herbal bitters, carefully selected for their exceptional quality and effectiveness.
+            Discover our varieties of popular herbal brands, from alcoholic bitters, to chocolate flavoured vodka, Original native Gin palm wine and body reviving herbal mixture carefully blended for their exceptional quality and effectiveness.
           </p>
         </div>
         
