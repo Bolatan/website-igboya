@@ -2,7 +2,7 @@ import React from 'react'
 
 const TeeKanLePage = () => {
   return (
-    <div className="container mx-auto px-4 pt-[5vh] pb-16">
+    <div className="container mx-auto px-4 mt-[10vh] pb-16">
       <div className="md:flex md:space-x-8">
         <div className="md:w-1/2">
           <img
