@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import FeaturedProducts from '../components/FeaturedProducts'
-import Benefits from '../components/Benefits'
 import Testimonials from '../components/Testimonials'
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
@@ -48,72 +47,6 @@ const HomePage = () => {
       </section>
 
       <FeaturedProducts />
-
-      {/* How to Use Section */}
-      <section className="section-padding bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">
-              How to Use Igboya Bitters
-            </h2>
-            <p className="text-gray-300 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-              Follow these simple guidelines to get the most benefit from your Igboya Bitters.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div
-              className="text-center p-6 bg-gray-800 rounded-lg"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center text-gray-900 font-bold text-2xl mx-auto mb-4">
-                1
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Measure Carefully</h3>
-              <p className="text-gray-300">
-                Use 30ml (approximately 2 tablespoons) of Igboya Bitters per serving. Use the cap as a measuring guide.
-              </p>
-            </div>
-
-            <div
-              className="text-center p-6 bg-gray-800 rounded-lg"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center text-gray-900 font-bold text-2xl mx-auto mb-4">
-                2
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Best Time to Take</h3>
-              <p className="text-gray-300">
-                For optimal results, take Igboya Bitters in the morning before breakfast or in the evening before dinner.
-              </p>
-            </div>
-
-            <div
-              className="text-center p-6 bg-gray-800 rounded-lg"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center text-gray-900 font-bold text-2xl mx-auto mb-4">
-                3
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Consistency is Key</h3>
-              <p className="text-gray-300">
-                For best results, use Igboya Bitters regularly as part of your daily wellness routine.
-              </p>
-            </div>
-          </div>
-
-          <div className="text-center mt-10" data-aos="fade-up" data-aos-delay="500">
-            <Link to="/products" className="btn btn-gold">
-              Shop Now
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <Benefits />
 
       <Testimonials />
     </>
