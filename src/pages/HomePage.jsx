@@ -17,7 +17,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1" data-aos="fade-right">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Our Heritage of <span className="text-primary-green">Igboya Bitters</span>
+                Our Heritage
               </h2>
               <p className="text-gray-600 mb-4">
                 For generations, Nigerian herbalists have carefully crafted herbal bitters to promote health and vitality. Igboya Bitters continues this tradition with our premium blend of natural ingredients.
