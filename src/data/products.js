@@ -45,7 +45,8 @@ export const products = [
       'Boosts immune system',
       'Enhances energy levels',
       'Improves blood circulation'
-    ]
+    ],
+    clickable: true
   },
   {
     id: 6,
@@ -76,7 +77,8 @@ export const products = [
       'Superior digestive support',
       'Improved circulation',
       'Natural energy boost'
-    ]
+    ],
+    clickable: true
   },
   {
     id: 10,
@@ -94,7 +96,8 @@ export const products = [
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: true
   },
   {
     id: 17,
@@ -112,7 +115,8 @@ export const products = [
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 18,
@@ -130,7 +134,8 @@ export const products = [
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 19,
@@ -170,7 +175,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: true
   },
   {
     id: 21,
@@ -188,7 +194,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 22,
@@ -206,7 +213,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 23,
@@ -224,7 +232,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 24,
@@ -242,7 +251,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 25,
@@ -260,7 +270,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: false
   },
   {
     id: 30,
@@ -278,7 +289,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: true
   },
   {
     id: 31,
@@ -296,6 +308,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     reviews: 0,
     stock: 10,
     ingredients: [],
-    benefits: []
+    benefits: [],
+    clickable: true
   }
 ]
