@@ -23,12 +23,19 @@ const ProductCard = ({ product, hidePrice }) => {
     ? '/igboya-bitters'
     : `/products/${product.id}`;
 
+  const CardWrapper = ({ children }) => {
+    if (product.clickable !== false) {
+      return <Link to={cardLink}>{children}</Link>;
+    }
+    return <div>{children}</div>;
+  };
+
   return (
     <div
       className="product-card"
       data-aos="fade-up"
     >
-      <Link to={cardLink}>
+      <CardWrapper>
         <div className="relative overflow-hidden">
           <img
             src={product.image}
@@ -64,7 +71,7 @@ const ProductCard = ({ product, hidePrice }) => {
           
           <p className="text-gray-600 text-sm mb-3">{product.shortDescription}</p>
         </div>
-      </Link>
+      </CardWrapper>
     </div>
   )
 }
