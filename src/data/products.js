@@ -13,6 +13,7 @@ import splendorLiquerImg from '../assets/splendor liquer.jpeg'
 import splendorBittersImg from '../assets/splendor bitters.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatch chocolate vodka.jpeg'
 import boldGinImg from '../assets/bold gin.jpeg'
+import productImg375 from '../assets/375.jpeg'
 
 
 export const products = [
@@ -56,7 +57,7 @@ export const products = [
     price: 3000,
     discount: 0,
     category: 'specialty',
-    image: productImg2,
+    image: productImg375,
     gallery: [productImg2, productImg3, productImg4],
     featured: false,
     isNew: true,
