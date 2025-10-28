@@ -12,6 +12,7 @@ const newImages = [
   '/images/c.jpeg',
   '/images/i.jpeg',
   '/images/j.jpeg',
+  '/images/igboyabittersbigbottle.jpeg',
 ];
 
 const Hero = () => {
