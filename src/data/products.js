@@ -11,7 +11,7 @@ import igboyaImg from '../assets/igboya.jpeg'
 import yatchginImg from '../assets/yatchgin.jpeg'
 import splendorLiquerImg from '../assets/SplendorLiquer.jpeg'
 import splendorBittersImg from '../assets/splendor bitters.jpeg'
-import yatchChocolateVodkaImg from '../assets/yatch chocolate vodka.jpeg'
+import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
 import boldGinImg from '../assets/bold gin.jpeg'
 import productImg375 from '../assets/375.jpeg'
 
