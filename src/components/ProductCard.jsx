@@ -34,6 +34,23 @@ const ProductCard = ({ product, hidePrice }) => {
     : isYatchChocolateVodka
     ? '/yatch-chocolate-vodka'
     : `/products/${product.id}`;
+  const getCardLink = () => {
+    if (product.path) {
+      return product.path
+    }
+    if (product.name === 'Te Kan Lee') {
+      return '/te-kan-le'
+    }
+    if (product.name.includes('Igboya Bitters')) {
+      return '/igboya-bitters'
+    }
+    if (product.category === 'eastwood') {
+      return '/eastwood'
+    }
+    return `/products/${product.id}`
+  }
+
+  const cardLink = getCardLink()
 
   const CardWrapper = ({ children }) => {
     if (product.clickable !== false) {
