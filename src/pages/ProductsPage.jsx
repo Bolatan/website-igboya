@@ -138,31 +138,6 @@ const ProductsPage = () => {
                   </ul>
                 </div>
                 
-                <div className="hidden lg:block">
-                  <h3 className="text-lg font-semibold mb-4">Sort By</h3>
-                  <div className="space-y-2">
-                    <label className="flex items-center">
-                      <input
-                        type="radio"
-                        name="sort"
-                        checked={sortBy === 'default'}
-                        onChange={() => handleSortChange('default')}
-                        className="mr-2"
-                      />
-                      Featured
-                    </label>
-                    <label className="flex items-center">
-                      <input
-                        type="radio"
-                        name="sort"
-                        checked={sortBy === 'rating'}
-                        onChange={() => handleSortChange('rating')}
-                        className="mr-2"
-                      />
-                      Top Rated
-                    </label>
-                  </div>
-                </div>
               </div>
             </aside>
             
