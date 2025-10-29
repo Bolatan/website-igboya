@@ -14,6 +14,7 @@ const ProductCard = ({ product, hidePrice }) => {
   const isTeKanLe = product.name === 'Te Kan Lee';
   const isFieldMarshal = product.name === 'Field Marshal';
   const isIgboyaBitters = product.name.includes('Igboya Bitters');
+  const isYatchChocolateVodka = product.name === 'Yatch Chocolate Vodka';
 
   const cardLink = isTeKanLe
     ? '/te-kan-le'
@@ -21,6 +22,8 @@ const ProductCard = ({ product, hidePrice }) => {
     ? '/field-marshall'
     : isIgboyaBitters
     ? '/igboya-bitters'
+    : isYatchChocolateVodka
+    ? '/yatch-chocolate-vodka'
     : `/products/${product.id}`;
 
   const CardWrapper = ({ children }) => {
