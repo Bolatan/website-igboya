@@ -17,6 +17,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import TeeKanLePage from './pages/TeeKanLePage'
 import EastwoodPage from './pages/EastwoodPage'
 import IgboyaBittersPage from './pages/IgboyaBittersPage'
+import YatchGinPage from './pages/YatchGinPage'
 import SplendorBittersPage from './pages/SplendorBittersPage'
 import BoldGinPage from './pages/BoldGinPage'
 import SplendorLiqueurPage from './pages/SplendorLiqueurPage'
@@ -49,6 +50,7 @@ function App() {
           <Route path="/te-kan-le" element={<TeeKanLePage />} />
           <Route path="/eastwood" element={<EastwoodPage />} />
           <Route path="/igboya-bitters" element={<IgboyaBittersPage />} />
+          <Route path="/yatch-gin" element={<YatchGinPage />} />
           <Route path="/splendor-bitters" element={<SplendorBittersPage />} />
           <Route path="/bold-gin" element={<BoldGinPage />} />
           <Route path="/splendor-liqueur" element={<SplendorLiqueurPage />} />
