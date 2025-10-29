@@ -17,6 +17,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import TeeKanLePage from './pages/TeeKanLePage'
 import EastwoodPage from './pages/EastwoodPage'
 import IgboyaBittersPage from './pages/IgboyaBittersPage'
+import SplendorLiqueurPage from './pages/SplendorLiqueurPage'
 import YatchChocolateVodkaPage from './pages/YatchChocolateVodkaPage'
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
           <Route path="/te-kan-le" element={<TeeKanLePage />} />
           <Route path="/eastwood" element={<EastwoodPage />} />
           <Route path="/igboya-bitters" element={<IgboyaBittersPage />} />
+          <Route path="/splendor-liqueur" element={<SplendorLiqueurPage />} />
           <Route path="/yatch-chocolate-vodka" element={<YatchChocolateVodkaPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
