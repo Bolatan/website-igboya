@@ -12,7 +12,7 @@ import yatchginImg from '../assets/yatchgin.jpeg'
 import splendorLiquerImg from '../assets/SplendorLiquer.jpeg'
 import splendorBittersImg from '../assets/splendor bitters.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
-import boldGinImg from '../assets/bold gin.jpeg'
+import boldGinImg from '../assets/boldgin.jpeg'
 import productImg375 from '../assets/375.jpeg'
 
 
@@ -23,7 +23,7 @@ export const products = [
     shortDescription: 'Special bundle of 750ml, 375ml, and 200ml bottles.',
     fullDescription: 'The perfect introduction to Igboya Bitters for the whole family. This special pack includes our three most popular sizes (750ml, 375ml, and 200ml), allowing different family members to enjoy our premium herbal formula according to their needs. Save money with this bundle while ensuring everyone in your household can experience the benefits of traditional Nigerian herbal medicine.',
     price: 7500,
-    discount: 15,
+    discount: 0,
     category: 'bundle',
     tags: ['alcoholic', 'herbal'],
     image: productImg1,
@@ -95,7 +95,7 @@ export const products = [
     image: teKanLeeImg,
     gallery: [teKanLeeImg],
     featured: true,
-    isNew: true,
+    isNew: false,
     rating: 5,
     reviews: 0,
     stock: 10,
@@ -189,7 +189,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     id: 21,
     name: 'Yatch Gin',
     shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
+    fullDescription: 'YATCH GIN\nA journey of taste designed for those who love to feel alive. Yatch Gin brings together crisp botanicals and a refreshing blend that commands attention from the very first sip. It is bold, stylish, and driven by an adventurous spirit.\n\nEvery pour invites you into a world where pleasure meets confidence. A smooth rush of flavor flows through your senses, lifting your mood and elevating your vibe. Whether you are at the club, the beach, or the center of the celebration, Yatch Gin delivers the thrill that keeps the night young.\n\nRaise the anchor. Set your excitement in motion. Experience the freedom, the boldness, and the pure enjoyment that only a finely crafted gin can give.\n\nMakes Your Body Come ALIVE',
     price: 0,
     discount: 0,
     category: 'standard',
