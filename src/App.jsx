@@ -17,6 +17,7 @@ import NotFoundPage from './pages/NotFoundPage'
 import TeeKanLePage from './pages/TeeKanLePage'
 import EastwoodPage from './pages/EastwoodPage'
 import IgboyaBittersPage from './pages/IgboyaBittersPage'
+import YatchChocolateVodkaPage from './pages/YatchChocolateVodkaPage'
 
 function App() {
   useEffect(() => {
@@ -45,6 +46,7 @@ function App() {
           <Route path="/te-kan-le" element={<TeeKanLePage />} />
           <Route path="/eastwood" element={<EastwoodPage />} />
           <Route path="/igboya-bitters" element={<IgboyaBittersPage />} />
+          <Route path="/yatch-chocolate-vodka" element={<YatchChocolateVodkaPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
