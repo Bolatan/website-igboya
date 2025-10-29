@@ -21,7 +21,6 @@ const products = allProducts.filter(p => {
 const ProductsPage = () => {
   const [filteredProducts, setFilteredProducts] = useState(products)
   const [activeCategory, setActiveCategory] = useState('all')
-  const [sortBy, setSortBy] = useState('default')
   const [showFilters, setShowFilters] = useState(false)
   
   // Get unique categories
@@ -30,37 +29,16 @@ const ProductsPage = () => {
   // Handle filter changes
   const handleCategoryChange = (category) => {
     setActiveCategory(category)
-    applyFilters(category, sortBy)
-  }
-  
-  const handleSortChange = (value) => {
-    setSortBy(value)
-    applyFilters(activeCategory, value)
+    applyFilters(category)
   }
   
   // Apply all filters
-  const applyFilters = (category, sort) => {
+  const applyFilters = (category) => {
     let result = [...products]
     
     // Apply category filter
     if (category !== 'all') {
       result = result.filter(product => product.tags && product.tags.includes(category));
-    }
-    
-    // Apply sorting
-    switch (sort) {
-      case 'name-asc':
-        result.sort((a, b) => a.name.localeCompare(b.name))
-        break
-      case 'name-desc':
-        result.sort((a, b) => b.name.localeCompare(a.name))
-        break
-      case 'rating':
-        result.sort((a, b) => b.rating - a.rating)
-        break
-      default:
-        // Default sorting (featured)
-        result.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0))
     }
     
     setFilteredProducts(result)
@@ -90,19 +68,6 @@ const ProductsPage = () => {
                 <span>Filters</span>
               </button>
               
-              <div className="flex items-center space-x-2">
-                <span className="text-sm text-gray-500">Sort by:</span>
-                <select 
-                  value={sortBy}
-                  onChange={(e) => handleSortChange(e.target.value)}
-                  className="border rounded px-2 py-1 text-sm"
-                >
-                  <option value="default">Featured</option>
-                  <option value="name-asc">Name: A to Z</option>
-                  <option value="name-desc">Name: Z to A</option>
-                  <option value="rating">Top Rated</option>
-                </select>
-              </div>
             </div>
             
             {/* Sidebar Filters */}
@@ -148,19 +113,6 @@ const ProductsPage = () => {
                 <p className="text-gray-600">
                   Showing {filteredProducts.length} of {products.length} products
                 </p>
-                <div className="flex items-center space-x-2">
-                  <span className="text-sm text-gray-600">Sort by:</span>
-                  <select 
-                    value={sortBy}
-                    onChange={(e) => handleSortChange(e.target.value)}
-                    className="border rounded px-3 py-1.5"
-                  >
-                    <option value="default">Featured</option>
-                    <option value="name-asc">Name: A to Z</option>
-                    <option value="name-desc">Name: Z to A</option>
-                    <option value="rating">Top Rated</option>
-                  </select>
-                </div>
               </div>
               
               {/* Products */}
