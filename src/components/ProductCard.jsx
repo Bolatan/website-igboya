@@ -11,21 +11,27 @@ const ProductCard = ({ product, hidePrice }) => {
     addToCart(product)
   }
 
-  const isTeKanLe = product.name === 'Te Kan Lee';
-  const isFieldMarshal = product.name === 'Field Marshal';
-  const isIgboyaBitters = product.name.includes('Igboya Bitters');
+  const getCardLink = () => {
+    if (product.path) {
+      return product.path
+    }
+    if (product.name === 'Te Kan Lee') {
+      return '/te-kan-le'
+    }
+    if (product.name.includes('Igboya Bitters')) {
+      return '/igboya-bitters'
+    }
+    if (product.category === 'eastwood') {
+      return '/eastwood'
+    }
+    return `/products/${product.id}`
+  }
 
-  const cardLink = isTeKanLe
-    ? '/te-kan-le'
-    : isFieldMarshal
-    ? '/field-marshall'
-    : isIgboyaBitters
-    ? '/igboya-bitters'
-    : `/products/${product.id}`;
+  const cardLink = getCardLink()
 
   const CardWrapper = ({ children }) => {
     if (product.clickable !== false) {
-      return <Link to={cardLink}>{children}</Link>;
+      return <Link to={cardLink}>{children}</Link>
     }
     return <div>{children}</div>;
   };
