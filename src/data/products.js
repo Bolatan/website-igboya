@@ -12,7 +12,7 @@ import yatchginImg from '../assets/yatchgin.jpeg'
 import splendorLiquerImg from '../assets/SplendorLiquer.jpeg'
 import splendorBittersImg from '../assets/splendor bitters.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
-import boldGinImg from '../assets/boldgin.jpeg'
+import boldGinImg from '../assets/bold.jpeg'
 import productImg375 from '../assets/375.jpeg'
 
 
