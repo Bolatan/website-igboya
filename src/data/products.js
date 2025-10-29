@@ -223,7 +223,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 23,
@@ -263,7 +263,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 25,

@@ -15,6 +15,8 @@ const ProductCard = ({ product, hidePrice }) => {
   const isFieldMarshal = product.name === 'Field Marshal';
   const isIgboyaBitters = product.name.includes('Igboya Bitters');
   const isBoldGin = product.name === 'Bold Gin';
+  const isSplendorLiqueur = product.name === 'Splendor Liqueur';
+  const isYatchChocolateVodka = product.name === 'Yatch Chocolate Vodka';
 
   const cardLink = isTeKanLe
     ? '/te-kan-le'
@@ -24,6 +26,10 @@ const ProductCard = ({ product, hidePrice }) => {
     ? '/igboya-bitters'
     : isBoldGin
     ? '/bold-gin'
+    : isSplendorLiqueur
+    ? '/splendor-liqueur'
+    : isYatchChocolateVodka
+    ? '/yatch-chocolate-vodka'
     : `/products/${product.id}`;
 
   const CardWrapper = ({ children }) => {
