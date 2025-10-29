@@ -224,13 +224,13 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 23,
     name: 'Splendor Bitters',
     shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
+    fullDescription: 'SPLENDOR BITTERS\nFor those who crave a taste that stands apart, this is your calling. Bold, exciting, and masterfully refined, Splendor Bitters delivers the perfect balance of intensity and satisfaction in every sip.\n\nSearching for an unbeatable taste of bitters?\nTry Splendor Bitters. This exceptional blend is infused with potent natural extracts that awaken your senses and leave a rich, lasting impression.\n\nCarefully crafted by the King of Bitters,\nEastwood Edwin Russ Distilleries & Food Ltd,\nSplendor Bitters embodies expertise, tradition, and the confidence of a brand that knows what true quality means.\n\nStrong in character. Unmatched in taste.\nAlways ready when you are…\n\nEnjoy the Beauty of Bitters on-the-GO.',
     price: 0,
     discount: 0,
     category: 'standard',
@@ -244,7 +244,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 24,
@@ -264,13 +264,25 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 25,
     name: 'Bold Gin',
     shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
+    fullDescription: `BOLD GIN......Stir you BOLDness
+An Original Native Masterpiece from Eastwood Edwin Russ Distilleries & Food Ltd
+
+Introducing a spirit born from tradition and perfected with mastery. BOLD GIN is crafted from the finest natural African palm wine, meticulously distilled to preserve the rich character of our native roots while delivering a refined and exhilarating drinking experience.
+
+Every drop carries the heartbeat of the motherland. The robust essence of palm wine is elevated by a careful blend of botanicals that awaken the senses. What emerges is a gin unlike any other: smooth yet daring, familiar yet exciting, proudly authentic.
+
+This is not just a drink. It is a celebration of culture and craftsmanship. A tribute to the past, bottled for the future. BOLD GIN invites you to taste the story of our people, to savor the legacy in every sip, and to raise your glass to originality.
+
+For the brave. The expressive. The ones who step forward with confidence and take life on their own terms.
+
+BOLD GIN
+Be Original. Be Untamed. Be Bold......stir your BOLDness`,
     price: 0,
     discount: 0,
     category: 'standard',
@@ -284,7 +296,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 30,

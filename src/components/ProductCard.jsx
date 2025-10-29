@@ -28,6 +28,29 @@ const ProductCard = ({ product, hidePrice }) => {
   }
 
   const cardLink = getCardLink()
+  const isTeKanLe = product.name === 'Te Kan Lee';
+  const isFieldMarshal = product.name === 'Field Marshal';
+  const isIgboyaBitters = product.name.includes('Igboya Bitters');
+  const isSplendorBitters = product.name.includes('Splendor Bitters');
+  const isBoldGin = product.name === 'Bold Gin';
+  const isSplendorLiqueur = product.name === 'Splendor Liqueur';
+  const isYatchChocolateVodka = product.name === 'Yatch Chocolate Vodka';
+
+  const cardLink = isTeKanLe
+    ? '/te-kan-le'
+    : isFieldMarshal
+    ? '/field-marshall'
+    : isIgboyaBitters
+    ? '/igboya-bitters'
+    : isSplendorBitters
+    ? '/splendor-bitters'
+    : isBoldGin
+    ? '/bold-gin'
+    : isSplendorLiqueur
+    ? '/splendor-liqueur'
+    : isYatchChocolateVodka
+    ? '/yatch-chocolate-vodka'
+    : `/products/${product.id}`;
 
   const CardWrapper = ({ children }) => {
     if (product.clickable !== false) {
