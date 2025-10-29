@@ -25,7 +25,7 @@ const ProductsPage = () => {
   const [showFilters, setShowFilters] = useState(false)
   
   // Get unique categories
-  const categories = ['all', ...new Set(products.map(product => product.category))]
+  const categories = ['all', 'alcoholic', 'non-alcoholic', 'herbal']
   
   // Handle filter changes
   const handleCategoryChange = (category) => {
@@ -44,7 +44,7 @@ const ProductsPage = () => {
     
     // Apply category filter
     if (category !== 'all') {
-      result = result.filter(product => product.category === category)
+      result = result.filter(product => product.tags && product.tags.includes(category));
     }
     
     // Apply sorting
