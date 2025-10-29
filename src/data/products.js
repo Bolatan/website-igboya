@@ -229,7 +229,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     id: 23,
     name: 'Splendor Bitters',
     shortDescription: 'A fine spirit.',
-    fullDescription: 'A fine spirit.',
+    fullDescription: 'SPLENDOR BITTERS\nFor those who crave a taste that stands apart, this is your calling. Bold, exciting, and masterfully refined, Splendor Bitters delivers the perfect balance of intensity and satisfaction in every sip.\n\nSearching for an unbeatable taste of bitters?\nTry Splendor Bitters. This exceptional blend is infused with potent natural extracts that awaken your senses and leave a rich, lasting impression.\n\nCarefully crafted by the King of Bitters,\nEastwood Edwin Russ Distilleries & Food Ltd,\nSplendor Bitters embodies expertise, tradition, and the confidence of a brand that knows what true quality means.\n\nStrong in character. Unmatched in taste.\nAlways ready when you are…\n\nEnjoy the Beauty of Bitters on-the-GO.',
     price: 0,
     discount: 0,
     category: 'standard',
@@ -243,7 +243,7 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: false
+    clickable: true
   },
   {
     id: 24,
