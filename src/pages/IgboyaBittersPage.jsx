@@ -20,32 +20,33 @@ const IgboyaBittersPage = () => {
           Our master blenders have spent years perfecting the precise combination of natural herbs that make Igboya Bitters truly exceptional. Every bottle contains a harmonious blend of potent botanicals, expertly balanced to deliver both exceptional taste and comprehensive wellness benefits.
         </p>
         <h2 className="text-2xl font-bold mt-8 mb-4">Comprehensive Health Benefits</h2>
-        <ul className="list-disc list-inside mb-4">
-          <li className="mb-2">
-            <span className="font-bold">Immune System Support</span>
-            <p>Strengthen your body's natural defenses with our powerful blend of immune-boosting herbs. Regular consumption helps fortify your system against common ailments and seasonal challenges.</p>
-          </li>
-          <li className="mb-2">
-            <span className="font-bold">Natural Body Cleanser</span>
-            <p>Experience the purifying power of nature as Igboya Bitters works to cleanse and detoxify your system, promoting overall vitality and well-being.</p>
-          </li>
-          <li className="mb-2">
-            <span className="font-bold">Fertility Enhancement</span>
-            <p>Traditional herbs known for their fertility-supporting properties have been carefully incorporated to support reproductive health naturally.</p>
-          </li>
-          <li className="mb-2">
-            <span className="font-bold">Pain Management Solutions</span>
-            <ul className="list-disc list-inside ml-4">
-              <li>Back Ache Relief: Find comfort from persistent back pain with our targeted herbal formula</li>
-              <li>Waist Pain Remedy: Address lower back and waist discomfort naturally</li>
-              <li>Menstrual Pain Relief: Gentle yet effective support for women's monthly comfort</li>
-            </ul>
-          </li>
-          <li className="mb-2">
-            <span className="font-bold">Digestive Health Support</span>
-            <p>Our specially selected herbs also provide relief for digestive concerns, including support for those dealing with hemorrhoids and related discomfort.</p>
-          </li>
+
+        <h3 className="text-xl font-bold mt-6 mb-2">Immune System Support</h3>
+        <p className="mb-4">
+            Strengthen your body's natural defenses with our powerful blend of immune-boosting herbs. Regular consumption helps fortify your system against common ailments and seasonal challenges.
+        </p>
+
+        <h3 className="text-xl font-bold mt-6 mb-2">Natural Body Cleanser</h3>
+        <p className="mb-4">
+            Experience the purifying power of nature as Igboya Bitters works to cleanse and detoxify your system, promoting overall vitality and well-being.
+        </p>
+
+        <h3 className="text-xl font-bold mt-6 mb-2">Fertility Enhancement</h3>
+        <p className="mb-4">
+            Traditional herbs known for their fertility-supporting properties have been carefully incorporated to support reproductive health naturally.
+        </p>
+
+        <h3 className="text-xl font-bold mt-6 mb-2">Pain Management Solutions</h3>
+        <ul className="list-disc list-inside mb-4 ml-4">
+            <li>Back Ache Relief: Find comfort from persistent back pain with our targeted herbal formula</li>
+            <li>Waist Pain Remedy: Address lower back and waist discomfort naturally</li>
+            <li>Menstrual Pain Relief: Gentle yet effective support for women's monthly comfort</li>
         </ul>
+
+        <h3 className="text-xl font-bold mt-6 mb-2">Digestive Health Support</h3>
+        <p className="mb-4">
+            Our specially selected herbs also provide relief for digestive concerns, including support for those dealing with hemorrhoids and related discomfort.
+        </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-4">The Igboya Difference</h2>
         <p className="mb-4">
@@ -54,6 +55,9 @@ const IgboyaBittersPage = () => {
         <h2 className="text-2xl font-bold mt-8 mb-4">Experience Wellness Naturally</h2>
         <p className="mb-4">
           Igboya Bitters isn't just a drink – it's a daily wellness ritual that connects you to the healing power of nature. Whether you're seeking to boost your immune system, cleanse your body, or address specific health concerns, our carefully crafted herbal blend offers a natural path to better health.
+        </p>
+        <p className="mb-4">
+          Igboya Bitters Alcoholic Drink comes in four different sizes, 100ML, 200ML, 375ML and 750ML for your utmost satisfaction:
         </p>
         <p className="font-bold">
           Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where nature meets wellness in every bottle.
