@@ -297,7 +297,8 @@ Be Original. Be Untamed. Be Bold......stir your BOLDness`,
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: true
+    clickable: true,
+    path: '/bold-gin'
   },
   {
     id: 30,
