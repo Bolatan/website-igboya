@@ -14,6 +14,7 @@ import splendorBittersImg from '../assets/splendor_bitters.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
 import boldGinImg from '../assets/bold.jpeg'
 import productImg375 from '../assets/375.jpeg'
+import igboyaFamilyPackImg from '../assets/ig.jpeg'
 
 
 export const products = [
@@ -26,7 +27,7 @@ export const products = [
     discount: 0,
     category: 'bundle',
     tags: ['alcoholic', 'herbal'],
-    image: productImg1,
+    image: igboyaFamilyPackImg,
     gallery: [productImg1, productImg2, productImg3],
     featured: false,
     isNew: false,
