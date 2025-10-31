@@ -10,7 +10,7 @@ import teKanLeeImg from '../assets/t.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
 import yatchginImg from '../assets/yatchgin22.jpeg'
 import splendorLiquerImg from '../assets/sl.jpeg'
-import splendorBittersImg from '../assets/splendor bitters.jpeg'
+import splendorBittersImg from '../assets/splendor_bitters.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
 import boldGinImg from '../assets/bold.jpeg'
 import productImg375 from '../assets/375.jpeg'
@@ -101,7 +101,8 @@ export const products = [
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: true
+    clickable: true,
+    path: '/splendor-bitters'
   },
   {
     id: 17,

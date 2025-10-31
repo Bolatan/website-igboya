@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import splendorBittersImg from '../assets/splendor_bitters.jpeg'
 
 const SplendorBittersPage = () => {
   return (
     <>
       <div className="container mx-auto px-4 pt-16 pb-8">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
-          SPLENDOR BITTERS
-        </h1>
-        <p className="text-lg md:text-xl mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
+              SPLENDOR BITTERS
+            </h1>
+            <p className="text-lg md:text-xl mb-6">
           For those who crave a taste that stands apart, this is your calling. Bold, exciting, and masterfully refined, Splendor Bitters delivers the perfect balance of intensity and satisfaction in every sip.
         </p>
         <p className="mb-4">
@@ -27,6 +30,11 @@ const SplendorBittersPage = () => {
         <p className="font-bold">
           Enjoy the Beauty of Bitters on-the-GO.
         </p>
+          </div>
+          <div>
+            <img src={splendorBittersImg} alt="Splendor Bitters" className="w-full h-auto rounded-lg shadow-lg" />
+          </div>
+        </div>
       </div>
 
       <div className="text-center mt-10" data-aos="fade-up" data-aos-delay="500">
