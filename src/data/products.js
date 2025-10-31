@@ -224,7 +224,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: true
+    clickable: true,
+    path: '/splendor-liqueur'
   },
   {
     id: 23,
