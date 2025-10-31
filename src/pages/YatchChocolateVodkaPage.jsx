@@ -1,16 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
 
 const YatchChocolateVodkaPage = () => {
   return (
     <>
       <div className="container mx-auto px-4 pt-16 pb-8">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
-          YATCH CHOCOLATE VODKA – Ginger Your Swagger!!
-        </h1>
-        <p className="text-lg md:text-xl mb-6">
-          Step into a world of smooth sophistication and bold energy with <em>Yatch Chocolate Vodka</em> — the drink that speaks confidence, charisma, and class. Infused with the rich, velvety taste of premium chocolate and the invigorating kick of fine vodka, every sip is crafted to awaken your senses and elevate your vibe.
-        </p>
+        <div className="flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mb-8 md:mb-0 md:mr-8">
+            <img src={yatchChocolateVodkaImg} alt="Yatch Chocolate Vodka" className="w-full h-auto rounded-lg shadow-lg" />
+          </div>
+          <div className="md:w-1/2">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
+              YATCH CHOCOLATE VODKA – Ginger Your Swagger!!
+            </h1>
+            <p className="text-lg md:text-xl mb-6">
+              Step into a world of smooth sophistication and bold energy with <em>Yatch Chocolate Vodka</em> — the drink that speaks confidence, charisma, and class. Infused with the rich, velvety taste of premium chocolate and the invigorating kick of fine vodka, every sip is crafted to awaken your senses and elevate your vibe.
+            </p>
+          </div>
+        </div>
         <p className="mb-4">
           Whether you’re out with friends, celebrating your wins, or just making moments memorable, <em>Yatch Chocolate Vodka</em> keeps the spirit alive and your swagger unmatched.
         </p>
