@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import FeaturedProducts from '../components/FeaturedProducts'
+import SplendorLiqueur from '../components/SplendorLiqueur'
 import Testimonials from '../components/Testimonials'
 import { Link } from 'react-router-dom'
 import { products } from '../data/products'
@@ -47,6 +48,8 @@ const HomePage = () => {
       </section>
 
       <FeaturedProducts />
+
+      <SplendorLiqueur />
 
       <Testimonials />
     </>
