@@ -7,28 +7,30 @@ const SplendorLiqueurPage = () => {
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8 text-center">
         SPLENDOR LIQUEUR......feel The Taste!!
       </h1>
-      <div className="flex justify-center my-8">
-        <img
-          src={splendorLiqueurImg}
-          alt="Splendor Liqueur"
-          className="rounded-lg shadow-lg w-full max-w-md"
-        />
-      </div>
-      <div className="text-center">
-        <p className="text-lg md:text-xl mb-6">
-          Splendor Liqueur is not just a drink. It is an experience. A smooth and rich blend crafted to awaken your senses and elevate every moment. Whether you are celebrating a big win or relaxing after a long day, Splendor wraps your taste buds in pure luxury.
-        </p>
-        <p className="text-lg md:text-xl mb-6">
-          <strong>Bold. Vibrant. Unforgettable.</strong>
-        </p>
-        <p className="mb-4">
-          Every sip delivers a burst of flavor that keeps you reaching for more. It invites laughter, sparks confidence, and brings the spotlight right to you. This is the drink for those who choose to stand out.
-        </p>
-        <p className="text-lg md:text-xl font-bold mb-6">
-          Splendor Liqueur. SHINE YOUR EYES.
-          <br />
-          Taste the thrill. Feel the glow. Embrace the splendor.
-        </p>
+      <div className="flex flex-col md:flex-row md:space-x-8 my-8">
+        <div className="md:w-1/2 flex justify-center">
+          <img
+            src={splendorLiqueurImg}
+            alt="Splendor Liqueur"
+            className="rounded-lg shadow-lg w-full max-w-md"
+          />
+        </div>
+        <div className="md:w-1/2 text-center md:text-left">
+          <p className="text-lg md:text-xl mb-6">
+            Splendor Liqueur is not just a drink. It is an experience. A smooth and rich blend crafted to awaken your senses and elevate every moment. Whether you are celebrating a big win or relaxing after a long day, Splendor wraps your taste buds in pure luxury.
+          </p>
+          <p className="text-lg md:text-xl mb-6">
+            <strong>Bold. Vibrant. Unforgettable.</strong>
+          </p>
+          <p className="mb-4">
+            Every sip delivers a burst of flavor that keeps you reaching for more. It invites laughter, sparks confidence, and brings the spotlight right to you. This is the drink for those who choose to stand out.
+          </p>
+          <p className="text-lg md:text-xl font-bold mb-6">
+            Splendor Liqueur. SHINE YOUR EYES.
+            <br />
+            Taste the thrill. Feel the glow. Embrace the splendor.
+          </p>
+        </div>
       </div>
     </div>
   )
