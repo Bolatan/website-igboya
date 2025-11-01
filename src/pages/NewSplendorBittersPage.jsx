@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import splendorBittersImg from '../assets/splendor_bitters.jpeg'
+import splendorBittersImg from '../assets/sb.jpeg'
 
-const SplendorBittersPage = () => {
+const NewSplendorBittersPage = () => {
   return (
     <>
       <div className="container mx-auto px-4 pt-16 pb-8">
@@ -46,4 +46,4 @@ const SplendorBittersPage = () => {
   )
 }
 
-export default SplendorBittersPage
+export default NewSplendorBittersPage
