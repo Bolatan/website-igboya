@@ -9,8 +9,8 @@ import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/t.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
 import yatchginImg from '../assets/yatchgin22.jpeg'
-import splendorLiquerImg from '../assets/sl.jpeg'
-import splendorBittersImg from '../assets/splendor_bitters.jpeg'
+import splendorLiquerImg from '../assets/sl2.jpeg'
+import splendorBittersImg from '../assets/sb.jpeg'
 import yatchChocolateVodkaImg from '../assets/yatchvodka.jpeg'
 import boldGinImg from '../assets/bold.jpeg'
 import productImg375 from '../assets/375.jpeg'
@@ -103,7 +103,7 @@ export const products = [
     ingredients: [],
     benefits: [],
     clickable: true,
-    path: '/splendor-bitters'
+    path: '/te-kan-le'
   },
   {
     id: 17,
@@ -185,7 +185,8 @@ Embrace the wisdom of traditional herbal medicine with Igboya Bitters – where 
     stock: 10,
     ingredients: [],
     benefits: [],
-    clickable: true
+    clickable: true,
+    path: '/splendor-bitters'
   },
   {
     id: 21,

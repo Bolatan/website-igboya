@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import splendorBittersImg from '../assets/splendor_bitters.jpeg'
+import splendorBittersImg from '../assets/sb.jpeg'
 
 const SplendorBittersPage = () => {
   return (
