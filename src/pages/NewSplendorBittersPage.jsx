@@ -37,11 +37,6 @@ const NewSplendorBittersPage = () => {
         </div>
       </div>
 
-      <div className="text-center mt-10" data-aos="fade-up" data-aos-delay="500">
-        <Link to="/products" className="btn btn-gold">
-          Shop Now
-        </Link>
-      </div>
     </>
   )
 }
