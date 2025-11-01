@@ -1,5 +1,5 @@
 import React from 'react'
-import splendorLiqueurImg from '../assets/SplendorLiquer.jpeg'
+import splendorLiqueurImg from '../assets/sl2.jpeg'
 
 const SplendorLiqueurPage = () => {
   return (
