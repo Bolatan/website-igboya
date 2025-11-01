@@ -1,39 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useForm } from '@formspree/react'
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import ThankYouPopup from '../components/ThankYouPopup'
 
 const ContactPage = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  })
-  const [isSubmitted, setIsSubmitted] = useState(false)
-  
-  const handleChange = (e) => {
-    const { name, value } = e.target
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }))
-  }
-  
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitted(true)
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      })
-    }, 500)
+  const [state, handleSubmit] = useForm("xvgvvyeg")
+  const [isPopupOpen, setIsPopupOpen] = useState(false)
+
+  useEffect(() => {
+    if (state.succeeded) {
+      setIsPopupOpen(true)
+    }
+  }, [state.succeeded])
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false)
   }
 
   return (
     <div className="pt-20">
+      <ThankYouPopup isOpen={isPopupOpen} onClose={handleClosePopup} />
       <div className="bg-primary-green py-16 text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
@@ -87,83 +73,67 @@ const ContactPage = () => {
             </div>
             
             <div>
-              {isSubmitted ? (
-                <div className="bg-green-50 border border-green-200 rounded-lg p-8 text-center">
-                  <h3 className="text-2xl font-bold text-primary-green mb-4">Thank You!</h3>
-                  <p className="text-gray-600">
-                    We've received your message and will get back to you within 24 hours.
-                  </p>
+              <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
+                <div className="mb-6">
+                  <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
+                    Your Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
+                  />
                 </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
-                  <div className="mb-6">
-                    <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
-                      Your Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
-                    />
-                  </div>
-                  
-                  <div className="mb-6">
-                    <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
-                    />
-                  </div>
-                  
-                  <div className="mb-6">
-                    <label htmlFor="subject" className="block text-gray-700 font-medium mb-2">
-                      Subject
-                    </label>
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
-                    />
-                  </div>
-                  
-                  <div className="mb-6">
-                    <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows="5"
-                      className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
-                    ></textarea>
-                  </div>
-                  
-                  <button
-                    type="submit"
-                    className="w-full bg-primary-green text-white py-3 rounded-lg font-semibold hover:bg-dark-green transition-colors"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              )}
+
+                <div className="mb-6">
+                  <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
+                  />
+                </div>
+
+                <div className="mb-6">
+                  <label htmlFor="subject" className="block text-gray-700 font-medium mb-2">
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
+                  />
+                </div>
+
+                <div className="mb-6">
+                  <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    rows="5"
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  disabled={state.submitting}
+                  className="w-full bg-primary-green text-white py-3 rounded-lg font-semibold hover:bg-dark-green transition-colors"
+                >
+                  Send Message
+                </button>
+              </form>
             </div>
           </div>
         </div>
