@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import tableImg from '../assets/table.jpeg';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -22,7 +23,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
         style={{
-          backgroundImage: `url(https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg?auto=compress&cs=tinysrgb&w=1920)`,
+          backgroundImage: `url(${tableImg})`,
           backgroundAttachment: 'fixed'
         }}
       ></div>
