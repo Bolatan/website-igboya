@@ -17,17 +17,17 @@ const YatchChocolateVodkaPage = () => {
             <p className="text-lg md:text-xl mb-6">
               Step into a world of smooth sophistication and bold energy with <em>Yatch Chocolate Vodka</em> — the drink that speaks confidence, charisma, and class. Infused with the rich, velvety taste of premium chocolate and the invigorating kick of fine vodka, every sip is crafted to awaken your senses and elevate your vibe.
             </p>
+            <p className="mb-4">
+              Whether you’re out with friends, celebrating your wins, or just making moments memorable, <em>Yatch Chocolate Vodka</em> keeps the spirit alive and your swagger unmatched.
+            </p>
+            <p className="text-2xl font-bold mt-8 mb-4">
+              💥 <em>Taste it once — feel the difference, live the experience!</em>
+            </p>
+            <p className="mb-4">
+              Because when it comes to flavor and fire, <em>Yatch Chocolate Vodka</em> always leads the wave.
+            </p>
           </div>
         </div>
-        <p className="mb-4">
-          Whether you’re out with friends, celebrating your wins, or just making moments memorable, <em>Yatch Chocolate Vodka</em> keeps the spirit alive and your swagger unmatched.
-        </p>
-        <p className="text-2xl font-bold mt-8 mb-4">
-          💥 <em>Taste it once — feel the difference, live the experience!</em>
-        </p>
-        <p className="mb-4">
-          Because when it comes to flavor and fire, <em>Yatch Chocolate Vodka</em> always leads the wave.
-        </p>
       </div>
     </>
   )
