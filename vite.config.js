@@ -7,6 +7,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: process.env.PORT || 10000,
   },
+  preview: {
+    allowedHosts: ['website-igboya.onrender.com'],
+  },
   css: {
     modules: false,
     postcss: './postcss.config.js',
