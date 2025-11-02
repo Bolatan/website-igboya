@@ -5,6 +5,7 @@ import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
 import productImg5 from '../assets/2.jpeg'
 import productImg6 from '../assets/3.jpeg'
+import combo2Img from '../assets/combo2.jpeg'
 import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/t.jpeg'
 import igboyaImg from '../assets/igboya.jpeg'
@@ -134,8 +135,8 @@ export const products = [
     discount: 0,
     category: 'standard',
     tags: ['alcoholic'],
-    image: productImg6,
-    gallery: [productImg6],
+    image: combo2Img,
+    gallery: [combo2Img],
     featured: true,
     isNew: true,
     rating: 5,
