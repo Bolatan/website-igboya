@@ -78,6 +78,9 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p>© {new Date().getFullYear()} Igboya Bitters. All Rights Reserved.</p>
+            <p className="text-gray-400">
+              Powered by <a href="https://www.sagnetplusteknikals.net.ng" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">www.sagnetplusteknikals.net.ng</a>
+            </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-4">
                 <li>
