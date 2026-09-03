@@ -38,7 +38,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 transition-all duration-300 mb-[5%] ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 ${
         isSticky
           ? 'bg-white shadow-md'
           : isHomePage
@@ -47,10 +47,10 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
-          <Link to="/" className="z-10 flex items-center space-x-2">
+        <div className="flex justify-between items-center py-3 md:py-4">
+          <Link to="/" className="z-10 flex items-center space-x-2 min-w-0 mr-2 max-w-[75%] sm:max-w-none">
             <Logo color={logoColor} />
-            <span className={`text-lg font-semibold ${textColorClass}`}>
+            <span className={`text-xs sm:text-sm md:text-base lg:text-lg font-semibold truncate ${textColorClass}`}>
               Edwin Eastwood Russ Distilleries and Food Ltd
             </span>
           </Link>
@@ -131,7 +131,7 @@ const Header = () => {
 
           {/* Mobile Menu */}
           <div
-            className={`fixed inset-0 bg-primary-green bg-opacity-95 flex flex-col items-center justify-center transition-all duration-300 ${
+            className={`fixed inset-0 bg-primary-green bg-opacity-95 flex flex-col items-center justify-center transition-all duration-300 overflow-y-auto py-8 ${
               mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
             } md:hidden`}
           >

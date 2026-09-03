@@ -20,60 +20,60 @@ const ContactPage = () => {
   return (
     <div className="pt-20">
       <ThankYouPopup isOpen={isPopupOpen} onClose={handleClosePopup} />
-      <div className="bg-primary-green py-16 text-white">
+      <div className="bg-primary-green py-10 md:py-16 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-          <p className="max-w-2xl mx-auto text-lg opacity-90">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+          <p className="max-w-2xl mx-auto text-base sm:text-lg opacity-90">
             Have questions about our products? We're here to help and would love to hear from you.
           </p>
         </div>
       </div>
       
-      <section className="py-16">
+      <section className="py-10 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-              <p className="text-gray-600 mb-8">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Get in Touch</h2>
+              <p className="text-gray-600 mb-6 sm:mb-8 text-sm sm:text-base">
                 Whether you have questions about our products, need assistance with an order, or want to learn more about herbal wellness, our team is ready to assist you.
               </p>
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-primary-green p-3 rounded-full text-white mr-4">
+                  <div className="bg-primary-green p-3 rounded-full text-white mr-4 flex-shrink-0">
                     <FaPhoneAlt size={20} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-600">08126670037, 09099319340</p>
+                    <h3 className="text-lg sm:text-xl font-semibold mb-1">Phone</h3>
+                    <p className="text-gray-600 text-sm sm:text-base break-words">08126670037, 09099319340</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-primary-green p-3 rounded-full text-white mr-4">
+                  <div className="bg-primary-green p-3 rounded-full text-white mr-4 flex-shrink-0">
                     <FaEnvelope size={20} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">enquiries@eastwoodedwinruss.com, eastwoodedwinrussindfoodltd@gmail.com</p>
+                    <h3 className="text-lg sm:text-xl font-semibold mb-1">Email</h3>
+                    <p className="text-gray-600 text-sm sm:text-base break-all">enquiries@eastwoodedwinruss.com, eastwoodedwinrussindfoodltd@gmail.com</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-primary-green p-3 rounded-full text-white mr-4">
+                  <div className="bg-primary-green p-3 rounded-full text-white mr-4 flex-shrink-0">
                     <FaMapMarkerAlt size={20} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-1">ADDRESS</h3>
-                    <p className="text-gray-600">EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD.</p>
-                    <p className="text-gray-600">48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</p>
+                    <h3 className="text-lg sm:text-xl font-semibold mb-1">ADDRESS</h3>
+                    <p className="text-gray-600 text-sm sm:text-base break-words">EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD.</p>
+                    <p className="text-gray-600 text-sm sm:text-base break-words">48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div>
-              <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8">
+              <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-5 sm:p-8">
                 <div className="mb-6">
                   <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
                     Your Name

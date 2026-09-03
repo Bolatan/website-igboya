@@ -19,28 +19,27 @@ const newImages = [
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section className="relative min-h-[85vh] py-12 md:py-20 flex items-center overflow-hidden">
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
         style={{
           backgroundImage: `url(${tableImg})`,
-          backgroundAttachment: 'fixed'
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/50"></div>
       
       <div className="container mx-auto px-4 z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="text-white">
+          <div className="text-white text-center md:text-left">
             <h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+              className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               Experience the Power of <span className="text-gold">Nigerian Heritage</span>
             </h1>
             <p
-              className="text-lg md:text-xl mb-6"
+              className="text-base sm:text-lg md:text-xl mb-6 text-gray-200"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -48,7 +47,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="w-full" data-aos="fade-left" data-aos-delay="400">
+          <div className="w-full overflow-hidden" data-aos="fade-left" data-aos-delay="400">
             <Swiper
               effect={'coverflow'}
               grabCursor={true}
@@ -71,8 +70,8 @@ const Hero = () => {
               className="w-full"
             >
               {newImages.map((image, index) => (
-                <SwiperSlide key={index} style={{ width: '320px' }}>
-                  <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+                <SwiperSlide key={index} className="!w-[260px] xs:!w-[280px] sm:!w-[320px]">
+                  <img src={image} alt={`Slide ${index + 1}`} className="w-full h-auto max-h-[380px] object-cover rounded-lg shadow-md" />
                 </SwiperSlide>
               ))}
 

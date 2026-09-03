@@ -31,15 +31,15 @@ const HomePage = () => {
 
             <div className="order-1 md:order-2" data-aos="fade-left">
               <div className="relative">
-              <div className="rounded-lg shadow-lg w-full h-auto overflow-hidden">
-  <iframe
-    src="https://www.youtube.com/embed/z1NpkKzRu1A?autoplay=1&mute=1"
-    className="w-full h-64 md:h-80 lg:h-96"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen>
-  </iframe>
-</div>
+                <div className="rounded-lg shadow-lg w-full h-auto overflow-hidden">
+                  <iframe
+                    src="https://www.youtube.com/embed/z1NpkKzRu1A?autoplay=1&mute=1"
+                    className="w-full h-48 sm:h-64 md:h-80 lg:h-96"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen>
+                  </iframe>
+                </div>
               </div>
             </div>
           </div>
