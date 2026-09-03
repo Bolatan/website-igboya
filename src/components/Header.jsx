@@ -48,7 +48,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3 md:py-4">
-          <Link to="/" className="z-10 flex items-center space-x-2 min-w-0 mr-2 max-w-[75%] sm:max-w-none">
+          <Link to="/" className="z-10 flex items-center space-x-2 min-w-0 mr-2 max-w-[70%] sm:max-w-none">
             <Logo color={logoColor} />
             <span className={`text-xs sm:text-sm md:text-base lg:text-lg font-semibold truncate ${textColorClass}`}>
               Edwin Eastwood Russ Distilleries and Food Ltd
