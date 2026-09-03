@@ -2,9 +2,9 @@ import React from 'react'
 
 const TeeKanLePage = () => {
   return (
-    <div className="container mx-auto px-4 mt-[10vh] pb-16">
-      <div className="md:flex md:space-x-8">
-        <div className="md:w-1/2">
+    <div className="container mx-auto px-4 pt-24 pb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
           <img
             src="/images/teekanle.jpeg"
             alt="Tee KAN LE Herbal Mixture"
@@ -24,7 +24,7 @@ const TeeKanLePage = () => {
             Tee KAN LE Herbal Mixture – Where Traditional Wisdom Meets Modern Wellness
           </p>
         </div>
-        <div className="md:w-1/2">
+        <div>
           <h2 className="text-2xl font-bold mt-8 md:mt-0 mb-4">A Symphony of Natural Healing</h2>
           <p className="mb-4">
             Tee KAN LE is more than just a drink – it's your daily passport to optimal health and vitality. Each bottle contains a carefully balanced fusion of premium herbal extracts, specifically formulated to work in harmony with your body's natural processes.

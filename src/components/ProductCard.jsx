@@ -46,7 +46,7 @@ const ProductCard = ({ product, hidePrice }) => {
           <img
             src={product.image}
             alt={product.name} 
-            className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
+            className="w-full h-48 sm:h-64 object-cover transition-transform duration-300 hover:scale-105"
           />
           {product.isNew && (
             <div className="absolute top-4 left-4 bg-gold text-gray-900 px-2 py-1 rounded font-semibold text-sm">

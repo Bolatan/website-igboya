@@ -3,13 +3,13 @@ import boldGinImg from '../assets/boldgin.jpeg';
 
 const BoldGinPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2">
-          <img src={boldGinImg} alt="BOLD GIN" className="w-full rounded-lg shadow-lg" />
+    <div className="container mx-auto px-4 pt-24 pb-12">
+      <div className="flex flex-col md:flex-row items-center gap-8">
+        <div className="w-full md:w-1/2">
+          <img src={boldGinImg} alt="BOLD GIN" className="w-full h-auto rounded-lg shadow-lg object-cover" />
         </div>
-        <div className="md:w-1/2 md:pl-8 mt-4 md:mt-0">
-          <h1 className="text-4xl font-bold mb-4">BOLD GIN......Stir you BOLDness</h1>
+        <div className="w-full md:w-1/2">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">BOLD GIN......Stir you BOLDness</h1>
           <p className="text-lg mb-4">An Original Native Masterpiece from Eastwood Edwin Russ Distilleries & Food Ltd</p>
           <p className="mb-4">Introducing a spirit born from tradition and perfected with mastery. BOLD GIN is crafted from the finest natural African palm wine, meticulously distilled to preserve the rich character of our native roots while delivering a refined and exhilarating drinking experience.</p>
           <p className="mb-4">Every drop carries the heartbeat of the motherland. The robust essence of palm wine is elevated by a careful blend of botanicals that awaken the senses. What emerges is a gin unlike any other: smooth yet daring, familiar yet exciting, proudly authentic.</p>

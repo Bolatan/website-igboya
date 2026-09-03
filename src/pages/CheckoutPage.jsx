@@ -35,10 +35,10 @@ const CheckoutPage = () => {
 
   if (cartItems.length === 0) {
     return (
-      <div className="pt-20">
-        <div className="container mx-auto px-4 py-16">
+      <div className="pt-24 pb-16">
+        <div className="container mx-auto px-4">
           <div className="text-center">
-            <h1 className="text-3xl font-bold mb-4">Your cart is empty</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-4">Your cart is empty</h1>
             <p className="text-gray-600 mb-8">Add some products to your cart to proceed with checkout.</p>
             <button
               onClick={() => navigate('/products')}
@@ -53,16 +53,16 @@ const CheckoutPage = () => {
   }
 
   return (
-    <div className="pt-20">
-      <div className="container mx-auto px-4 py-16">
+    <div className="pt-24 pb-16">
+      <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-8">Checkout</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold mb-8">Checkout</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h2 className="text-xl font-semibold mb-4">Shipping Information</h2>
               <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       First Name
@@ -133,7 +133,7 @@ const CheckoutPage = () => {
                   />
                 </div>
                 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
                       City

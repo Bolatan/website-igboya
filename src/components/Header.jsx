@@ -38,7 +38,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 w-full z-50 transition-all duration-300 mb-[5%] ${
+      className={`sticky top-0 w-full z-50 transition-all duration-300 ${
         isSticky
           ? 'bg-white shadow-md'
           : isHomePage
@@ -48,9 +48,9 @@ const Header = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <Link to="/" className="z-10 flex items-center space-x-2">
+          <Link to="/" className="z-10 flex items-center space-x-2 min-w-0 pr-2">
             <Logo color={logoColor} />
-            <span className={`text-lg font-semibold ${textColorClass}`}>
+            <span className={`text-xs sm:text-sm md:text-lg font-semibold truncate ${textColorClass}`}>
               Edwin Eastwood Russ Distilleries and Food Ltd
             </span>
           </Link>
@@ -119,11 +119,12 @@ const Header = () => {
           </div>
 
           <button
-            className="md:hidden z-10"
+            className="md:hidden z-50 p-2 flex-shrink-0"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <FaTimes size={24} className={textColorClass} />
+              <FaTimes size={24} className={isSticky || !mobileMenuOpen ? textColorClass : 'text-white'} />
             ) : (
               <FaBars size={24} className={textColorClass} />
             )}
@@ -131,7 +132,7 @@ const Header = () => {
 
           {/* Mobile Menu */}
           <div
-            className={`fixed inset-0 bg-primary-green bg-opacity-95 flex flex-col items-center justify-center transition-all duration-300 ${
+            className={`fixed inset-0 bg-primary-green bg-opacity-95 flex flex-col items-center justify-center transition-all duration-300 z-40 ${
               mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
             } md:hidden`}
           >

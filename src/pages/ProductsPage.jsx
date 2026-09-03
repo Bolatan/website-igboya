@@ -39,11 +39,11 @@ const ProductsPage = () => {
   }
   
   return (
-    <div className="pt-20">
-      <div className="bg-primary-green py-16 text-white">
+    <div>
+      <div className="bg-primary-green pt-24 pb-12 sm:pb-16 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Products</h1>
-          <p className="max-w-2xl mx-auto text-lg opacity-90">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Our Products</h1>
+          <p className="max-w-2xl mx-auto text-base sm:text-lg opacity-90">
             Discover our range of premium Nigerian herbal bitters, crafted with tradition and quality in mind.
           </p>
         </div>
