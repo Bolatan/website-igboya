@@ -4,13 +4,7 @@ import ProductCard from '../components/ProductCard'
 import { FaFilter, FaTimes, FaSortAmountDown, FaSortAmountUp } from 'react-icons/fa'
 
 const productsToShow = [
-  "yatch chocolate vodka",
   "bold gin",
-  "yatch gin",
-  "splendour liquor",
-  "splendor liquer",
-  "splendour bitters",
-  "splendor bitters",
 ];
 
 const products = allProducts.filter(p => {

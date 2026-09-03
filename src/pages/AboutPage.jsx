@@ -67,26 +67,6 @@ Our unique formulas combines ancient wisdom with modern production standards to 
                   <td className="px-6 py-4">“Field Marshall” is a premium Gin blended from Palm wine into Spirit varieties of Gin, vodka and flavoured blended herbal spirit.</td>
                 </tr>
                 <tr>
-                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/23" className='hover:text-primary-green'>Splendid Bitters</Link></td>
-                  <td className="px-6 py-4 whitespace-nowrap">Alcoholic bitters</td>
-                  <td className="px-6 py-4">Another variant of bitters in their portfolio; perhaps targeting different taste profile or pricing tier.</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/22" className='hover:text-primary-green'>Splendid Liqueur</Link></td>
-                  <td className="px-6 py-4 whitespace-nowrap">Flavored spirit / sweetened liquor</td>
-                  <td className="px-6 py-4">Liqueurs tend to be sweeter, lower proof, for cocktail mixing or sipping; fruit and herbal flavored.</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/24" className='hover:text-primary-green'>Yatch Chocolate Vodka</Link></td>
-                  <td className="px-6 py-4 whitespace-nowrap">Flavored vodka spirit</td>
-                  <td className="px-6 py-4">A novelty / premium product; flavored with chocolate, appealing to consumers wanting dessert/cocktail style flavored spirits.</td>
-                </tr>
-                <tr>
-                  <td className="px-6 py-4 whitespace-nowrap"><Link to="/products/21" className='hover:text-primary-green'>Yatch Gin</Link></td>
-                  <td className="px-6 py-4 whitespace-nowrap">Gin spirit</td>
-                  <td className="px-6 py-4">Traditional gin spirits or flavored gin; targeting gin cocktail market.</td>
-                </tr>
-                <tr>
                   <td className="px-6 py-4 whitespace-nowrap">Bold Palm Wine Gin</td>
                   <td className="px-6 py-4 whitespace-nowrap">Gin with palm wine or palm wine-styled flavor</td>
                   <td className="px-6 py-4">Combining traditional Nigerian flavor (palm wine) with gin; this is a niche product bridging local tastes with premium gin trend.</td>
@@ -103,7 +83,7 @@ Our unique formulas combines ancient wisdom with modern production standards to 
           <ul className="list-disc list-inside space-y-2 text-lg">
             <li><strong>Diversified Portfolio:</strong> The mix of bitters, non-alcoholic herbal drinks, flavored gin & vodka, and liqueur means Eastwood Edwin Russ has multiple revenue streams and and can appeal across various consumer preferences.</li>
             <li><strong>Local / Herbal Appeal:</strong> Herbal drinks and bitters are popular in Nigeria, both for cultural reasons and perceived health/functional benefits. Their herbal offerings give them a competitive niche.</li>
-            <li><strong>Innovation:</strong> Products like “Bold Palm Wine Gin,” “Yatch Chocolate Vodka,” etc., show that the company is trying to innovate in flavors, combining traditional elements (palm wine) with modern spirit categories.</li>
+            <li><strong>Innovation:</strong> Products like “Bold Palm Wine Gin” show that the company is trying to innovate in flavors, combining traditional elements (palm wine) with modern spirit categories.</li>
             <li><strong>Strategic Location:</strong> Operating in Lagos State (Ikorodu region) and Dunukofia LGA in Anambra State, gives good access to transport, distribution networks, and a large consumer base.</li>
           </ul>
         </section>
