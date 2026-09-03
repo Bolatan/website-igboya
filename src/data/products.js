@@ -3,8 +3,6 @@ import productImg1 from '../assets/product-1.jpg'
 import productImg2 from '../assets/product-2.jpg'
 import productImg3 from '../assets/product-3.jpg'
 import productImg4 from '../assets/product-4.jpg'
-import productImg5 from '../assets/2.jpeg'
-import productImg6 from '../assets/3.jpeg'
 import combo2Img from '../assets/combo2.jpeg'
 import productImg7 from '../assets/5.jpeg'
 import teKanLeeImg from '../assets/t.jpeg'
@@ -105,26 +103,6 @@ export const products = [
     benefits: [],
     clickable: true,
     path: '/te-kan-le'
-  },
-  {
-    id: 17,
-    name: 'Combo',
-    shortDescription: 'A new product.',
-    fullDescription: 'A new product.',
-    price: 0,
-    discount: 0,
-    category: 'standard',
-    tags: ['alcoholic'],
-    image: productImg5,
-    gallery: [productImg5],
-    featured: true,
-    isNew: true,
-    rating: 5,
-    reviews: 0,
-    stock: 10,
-    ingredients: [],
-    benefits: [],
-    clickable: false
   },
   {
     id: 18,
