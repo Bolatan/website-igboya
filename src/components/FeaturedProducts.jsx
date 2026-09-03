@@ -12,11 +12,11 @@ const FeaturedProducts = () => {
   
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: featuredProducts.length > 4,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: featuredProducts.length > 4,
     autoplaySpeed: 5000,
     responsive: [
       {
