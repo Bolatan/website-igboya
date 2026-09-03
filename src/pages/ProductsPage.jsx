@@ -3,9 +3,7 @@ import { products as allProducts } from '../data/products'
 import ProductCard from '../components/ProductCard'
 import { FaFilter, FaTimes, FaSortAmountDown, FaSortAmountUp } from 'react-icons/fa'
 
-const productsToShow = [
-  "bold gin",
-];
+const productsToShow = [];
 
 const products = allProducts.filter(p => {
   const lowerCaseName = p.name.toLowerCase();
