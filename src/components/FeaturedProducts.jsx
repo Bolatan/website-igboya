@@ -14,7 +14,7 @@ const FeaturedProducts = () => {
     dots: true,
     infinite: featuredProducts.length > 4,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: Math.min(4, featuredProducts.length || 1),
     slidesToScroll: 1,
     autoplay: featuredProducts.length > 4,
     autoplaySpeed: 5000,
@@ -22,14 +22,14 @@ const FeaturedProducts = () => {
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: Math.min(3, featuredProducts.length || 1),
           slidesToScroll: 1
         }
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: Math.min(2, featuredProducts.length || 1),
           slidesToScroll: 1
         }
       },

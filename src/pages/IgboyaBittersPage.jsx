@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 const IgboyaBittersPage = () => {
   return (
     <>
-      <div className="container mx-auto px-4 pt-16 pb-8">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-8">
+      <div className="container mx-auto px-4 pt-6 sm:pt-12 pb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gold mt-4 sm:mt-8">
           Igboya Bitters: Nature's Premium Herbal Blend
         </h1>
-        <p className="text-lg md:text-xl mb-6">
+        <p className="text-base sm:text-lg md:text-xl mb-6 font-medium">
           Discover the Power of Traditional Wellness
         </p>
         <p className="mb-4">

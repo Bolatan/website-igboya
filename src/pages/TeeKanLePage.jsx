@@ -2,18 +2,18 @@ import React from 'react'
 
 const TeeKanLePage = () => {
   return (
-    <div className="container mx-auto px-4 mt-[10vh] pb-16">
-      <div className="md:flex md:space-x-8">
+    <div className="container mx-auto px-4 pt-6 sm:pt-12 pb-12 sm:pb-16">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="md:w-1/2">
           <img
             src="/images/teekanle.jpeg"
             alt="Tee KAN LE Herbal Mixture"
             className="rounded-lg shadow-lg w-full mb-4"
           />
-          <p className="mb-4">
+          <p className="mb-4 text-sm sm:text-base">
             …….Awaken Your Vitality, Excite Your Taste Buds Experience the extraordinary fusion of traditional herbal wisdom and modern wellness with Tee KAN LE Herbal Mixture – the revolutionary non-alcoholic herbal drink that's transforming lives across the nation. This meticulously crafted blend doesn't just tantalize your taste buds; it delivers a powerhouse of natural immune boost that your body craves.
           </p>
-          <h2 className="text-2xl font-bold mt-8 mb-4">Your Journey to Wellness Starts Here</h2>
+          <h2 className="text-xl sm:text-2xl font-bold mt-6 sm:mt-8 mb-4">Your Journey to Wellness Starts Here</h2>
           <p className="mb-4">
             Don't let fatigue, poor health, or diminished vitality hold you back from living your best life. Tee KAN LE Herbal Mixture offers you a natural pathway to renewed energy, enhanced performance, and comprehensive wellness.
           </p>

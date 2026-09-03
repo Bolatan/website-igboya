@@ -24,15 +24,15 @@ const ProductList = ({ products, title, subtitle }) => {
           )}
         </div>
         
-        <div className="flex justify-center mb-8 overflow-x-auto" data-aos="fade-up" data-aos-delay="200">
-          <div className="flex space-x-2 md:space-x-4">
+        <div className="flex justify-center mb-8" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4">
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-4 py-2 rounded-full text-sm md:text-base transition-all ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm md:text-base transition-all ${
                   activeCategory === category
-                    ? 'bg-primary-green text-white'
+                    ? 'bg-primary-green text-white font-medium'
                     : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 }`}
               >

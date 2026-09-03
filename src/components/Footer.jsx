@@ -60,29 +60,29 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <FaPhoneAlt className="mt-1 mr-3 text-gold" />
-                <span>08126670037, 09099319340</span>
+                <span className="break-words">08126670037, 09099319340</span>
               </li>
               <li className="flex items-start">
                 <FaEnvelope className="mt-1 mr-3 text-gold" />
-                <span>enquiries@eastwoodedwinruss.com, eastwoodedwinrussindfoodltd@gmail.com</span>
+                <span className="break-all">enquiries@eastwoodedwinruss.com, eastwoodedwinrussindfoodltd@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-gold" />
-                <span>EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD. <br /> 48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</span>
+                <span className="break-words">EASTWOOD EDWIN RUSS DISTILLERIES & FOOD LTD. <br /> 48, Gberigbe Road, Off Ijede Road, Ikorodu, Lagos</span>
               </li>
             </ul>
           </div>
           
         </div>
         
-        <div className="border-t border-gray-800 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gray-800 py-6 text-sm sm:text-base">
+          <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
             <p>© {new Date().getFullYear()} Igboya Bitters. All Rights Reserved.</p>
-            <p className="text-gray-400">
+            <p className="text-gray-400 break-all">
               Powered by <a href="https://www.sagnetplusteknikals.net.ng" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">www.sagnetplusteknikals.net.ng</a>
             </p>
-            <div className="mt-4 md:mt-0">
-              <ul className="flex space-x-4">
+            <div>
+              <ul className="flex flex-wrap justify-center gap-4">
                 <li>
                   <Link to="/privacy-policy" className="text-gray-400 hover:text-gold transition-colors">
                     Privacy Policy
