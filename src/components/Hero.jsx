@@ -70,8 +70,8 @@ const Hero = () => {
               className="w-full"
             >
               {newImages.map((image, index) => (
-                <SwiperSlide key={index} className="!w-[260px] xs:!w-[280px] sm:!w-[320px]">
-                  <img src={image} alt={`Slide ${index + 1}`} className="w-full h-auto max-h-[380px] object-cover rounded-lg shadow-md" />
+                <SwiperSlide key={index} className="!w-[220px] xs:!w-[260px] sm:!w-[320px]">
+                  <img src={image} alt={`Slide ${index + 1}`} className="w-full h-auto max-h-[320px] sm:max-h-[380px] object-cover rounded-lg shadow-md" />
                 </SwiperSlide>
               ))}
 
