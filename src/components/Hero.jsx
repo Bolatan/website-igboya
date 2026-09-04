@@ -8,13 +8,9 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const newImages = [
-  '/images/a.jpeg',
-  '/images/b.jpeg',
-  '/images/c.jpeg',
   '/images/i.jpeg',
   '/images/j.jpeg',
   '/images/igboyabittersbigbottle.jpeg',
-  '/images/sp.jpeg',
 ];
 
 const Hero = () => {
